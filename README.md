@@ -1,33 +1,18 @@
-# System Metrics Dashboard
+# Streamlit Dashboard Application
 
-A dashboard application for monitoring system metrics and cryptocurrency prices.
+This is a Streamlit-based dashboard application that visualizes data using Plotly.
 
 ## Local Development
 
-1. Install dependencies:
-   ```
-   pip install -r requirements.txt
-   ```
+1. Install the required dependencies:
+```bash
+pip install -r requirements.txt
+```
 
-2. Initialize the database:
-   ```
-   python src/init_db.py
-   ```
-
-3. Run the metrics collector:
-   ```
-   python src/metrics_collector.py
-   ```
-
-4. Run the API server:
-   ```
-   python src/api.py
-   ```
-
-5. Run the Streamlit dashboard:
-   ```
-   streamlit run src/streamlit_dashboard.py
-   ```
+2. Run the application:
+```bash
+streamlit run src/streamlit_dashboard.py
+```
 
 ## Deployment on Streamlit Cloud
 
@@ -55,45 +40,3 @@ The application uses the following configuration files:
 - Pandas
 - SQLAlchemy
 - Other dependencies as listed in requirements.txt
-
-## Remote Monitoring Setup
-
-To monitor your local PC from Streamlit Cloud:
-
-1. Install ngrok:
-   ```
-   # Windows (using chocolatey)
-   choco install ngrok
-
-   # macOS
-   brew install ngrok
-
-   # Linux
-   snap install ngrok
-   ```
-
-2. Sign up at [ngrok.com](https://ngrok.com/) and get your auth token
-
-3. Configure ngrok:
-   ```
-   ngrok config add-authtoken YOUR_AUTH_TOKEN
-   ```
-
-4. Start your local API server:
-   ```
-   python src/api.py
-   ```
-
-5. Create a tunnel to your API:
-   ```
-   ngrok http 5000
-   ```
-
-6. Copy the HTTPS URL provided by ngrok (e.g., https://abc123.ngrok.io)
-
-7. Update your Streamlit Cloud settings with this URL:
-   - Go to your app on Streamlit Cloud
-   - Click on "Manage app" > "Settings" > "Secrets"
-   - Add a new secret: `API_URL` with the ngrok URL value
-
-8. Restart your Streamlit app

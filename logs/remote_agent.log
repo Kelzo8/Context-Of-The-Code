@@ -1,0 +1,10 @@
+2025-03-08 22:09:19,449 - RemoteAgent - INFO - Starting Remote Metrics Agent on DESKTOP-UIDN80T
+2025-03-08 22:09:19,792 - RemoteAgent.Uploader - INFO - Stored metrics in local database: 2025-03-08T22:09:19.792898
+2025-03-08 22:09:19,792 - RemoteAgent.Uploader - WARNING - No API URL configured, skipping upload
+2025-03-08 22:09:19,792 - RemoteAgent - ERROR - Error in metrics collection: 'cpu_usage_percent'
+2025-03-08 22:11:17,787 - RemoteAgent - INFO - Starting Remote Metrics Agent on DESKTOP-UIDN80T
+2025-03-08 22:11:18,250 - RemoteAgent.Uploader - INFO - Stored metrics in local database: 2025-03-08T22:11:18.235102
+2025-03-08 22:11:18,252 - RemoteAgent.Uploader - INFO - Attempting to upload 2 pending metrics
+2025-03-08 22:11:18,261 - RemoteAgent.Uploader - ERROR - Error uploading metric ID 1: No connection adapters were found for 'lhttps://cloudapi.streamlit.app//v1/metrics'
+2025-03-08 22:11:18,265 - RemoteAgent.Uploader - ERROR - Error uploading metric ID 2: No connection adapters were found for 'lhttps://cloudapi.streamlit.app//v1/metrics'
+2025-03-08 22:11:18,267 - RemoteAgent - ERROR - Error in metrics collection: 'cpu_usage_percent'
