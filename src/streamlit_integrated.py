@@ -60,24 +60,65 @@ def get_db_session():
     Session = sessionmaker(bind=engine)
     return Session()
 
+# Cache for crypto prices
+@st.cache_data(ttl=60)  # Cache for 60 seconds
+def fetch_crypto_prices():
+    try:
+        # Add headers to avoid rate limiting
+        headers = {
+            'User-Agent': 'Mozilla/5.0',
+            'Accept': 'application/json'
+        }
+        
+        response = requests.get(
+            'https://api.coingecko.com/api/v3/simple/price',
+            params={
+                'ids': 'bitcoin,ethereum',
+                'vs_currencies': 'usd'
+            },
+            headers=headers,
+            timeout=5
+        )
+        
+        # Check if we got a successful response
+        if response.status_code == 200:
+            data = response.json()
+            if 'bitcoin' in data and 'ethereum' in data:
+                return {
+                    'bitcoin_price_usd': data['bitcoin']['usd'],
+                    'ethereum_price_usd': data['ethereum']['usd'],
+                    'success': True
+                }
+        elif response.status_code == 429:
+            st.warning("CoinGecko API rate limit reached. Using cached data.")
+        else:
+            st.warning(f"CoinGecko API returned status code: {response.status_code}")
+            
+    except requests.exceptions.RequestException as e:
+        st.warning(f"Failed to fetch crypto prices: {str(e)}")
+    except Exception as e:
+        st.warning(f"Error processing crypto prices: {str(e)}")
+    
+    return {
+        'bitcoin_price_usd': None,
+        'ethereum_price_usd': None,
+        'success': False
+    }
+
+def get_crypto_prices():
+    # Use cached function to get prices
+    result = fetch_crypto_prices()
+    return {
+        'bitcoin_price_usd': result['bitcoin_price_usd'],
+        'ethereum_price_usd': result['ethereum_price_usd']
+    }
+
 # Data collection functions
 def get_system_metrics():
     return {
         'thread_count': len(psutil.Process().threads()),
         'ram_usage_percent': psutil.virtual_memory().percent
     }
-
-def get_crypto_prices():
-    try:
-        response = requests.get('https://api.coingecko.com/api/v3/simple/price?ids=bitcoin,ethereum&vs_currencies=usd')
-        data = response.json()
-        return {
-            'bitcoin_price_usd': data['bitcoin']['usd'],
-            'ethereum_price_usd': data['ethereum']['usd']
-        }
-    except Exception as e:
-        st.error(f"Failed to fetch crypto prices: {str(e)}")
-        return {'bitcoin_price_usd': None, 'ethereum_price_usd': None}
 
 def collect_metrics(session, device_id=1):
     # Create new snapshot
@@ -134,9 +175,8 @@ def main():
     # Title
     st.title("System & Crypto Metrics Dashboard")
     
-    # Initialize session state for auto-refresh
-    if 'last_refresh' not in st.session_state:
-        st.session_state.last_refresh = datetime.now()
+    # Add a refresh rate selector
+    refresh_rate = st.sidebar.slider("Refresh Rate (seconds)", min_value=1, max_value=60, value=5)
     
     # Initialize database and create default device if needed
     session = get_db_session()
@@ -146,10 +186,8 @@ def main():
         session.add(device)
         session.commit()
     
-    # Collect new metrics every 5 seconds
-    if (datetime.now() - st.session_state.last_refresh).total_seconds() >= 5:
-        collect_metrics(session)
-        st.session_state.last_refresh = datetime.now()
+    # Always collect new metrics
+    collect_metrics(session)
     
     # Live Metrics Section
     st.header("Live Metrics")
@@ -271,6 +309,10 @@ def main():
     
     finally:
         session.close()
+    
+    # Auto-refresh
+    time.sleep(refresh_rate)
+    st.rerun()
 
 if __name__ == "__main__":
     main() 
