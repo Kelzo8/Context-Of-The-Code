@@ -14,10 +14,33 @@ st.set_page_config(
 
 # Initialize the metrics client
 API_URL = os.getenv('API_URL', 'http://localhost:5000')
-client = MetricsClient(
-    base_url=API_URL,
-    device_id=1
-)
+
+if not API_URL:
+    st.error("API_URL environment variable is not set. Please configure it in your Streamlit Cloud settings.")
+    st.stop()
+
+try:
+    client = MetricsClient(
+        base_url=API_URL,
+        device_id=1
+    )
+except Exception as e:
+    st.error(f"Failed to initialize metrics client: {str(e)}")
+    st.stop()
+
+# Add API status indicator
+st.sidebar.markdown("### API Status")
+try:
+    # Try to get a single metric to test connection
+    client.get_metrics(limit=1)
+    st.sidebar.success(f"✅ Connected to API at {API_URL}")
+except Exception as e:
+    st.sidebar.error(f"❌ API Connection Failed: {str(e)}")
+    if "localhost" in API_URL:
+        st.sidebar.warning("""
+        You're trying to connect to a localhost API which won't work in cloud deployment.
+        Please deploy your API service and update the API_URL in Streamlit Cloud settings.
+        """)
 
 def create_gauge(value, title, min_val=0, max_val=100):
     """Create a gauge chart"""
