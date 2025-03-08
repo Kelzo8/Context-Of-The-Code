@@ -1,3 +1,4 @@
+import os
 import dash
 from dash import html, dcc, dash_table
 from dash.dependencies import Input, Output
@@ -7,9 +8,10 @@ from datetime import datetime, timedelta, UTC
 import time
 from metrics_sdk import MetricsClient, SystemMetrics, CryptoMetrics
 
-# Initialize the metrics client
+# Initialize the metrics client with environment variable
+API_URL = os.getenv('API_URL', 'http://localhost:5000')
 client = MetricsClient(
-    base_url='http://localhost:5000',
+    base_url=API_URL,
     device_id=1
 )
 

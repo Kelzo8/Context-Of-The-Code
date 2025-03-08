@@ -1,0 +1,22 @@
+services:
+  # API Service
+  - type: web
+    name: metrics-api
+    env: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: gunicorn src.wsgi_api:application
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.9.0
+      - key: DATABASE_URL
+        value: metrics.db
+
+  # Dashboard Service
+  - type: web
+    name: metrics-dashboard
+    env: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: gunicorn src.wsgi_dashboard:application
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.9.0 
