@@ -115,10 +115,28 @@ def get_crypto_prices():
 
 # Data collection functions
 def get_system_metrics():
-    return {
-        'thread_count': len(psutil.Process().threads()),
-        'ram_usage_percent': psutil.virtual_memory().percent
-    }
+    try:
+        # Get memory info only (more reliable than thread count)
+        memory = psutil.virtual_memory()
+        
+        # Get current process thread count (more reliable than system-wide)
+        current_process = psutil.Process()
+        thread_count = len(current_process.threads())
+        
+        return {
+            'thread_count': thread_count,
+            'ram_usage_percent': memory.percent,
+            'ram_used_gb': round(memory.used / (1024**3), 2),  # Convert to GB
+            'ram_total_gb': round(memory.total / (1024**3), 2)  # Convert to GB
+        }
+    except Exception as e:
+        st.error(f"Error getting system metrics: {str(e)}")
+        return {
+            'thread_count': 0,
+            'ram_usage_percent': 0,
+            'ram_used_gb': 0,
+            'ram_total_gb': 0
+        }
 
 def collect_metrics(session, device_id=1):
     # Create new snapshot
@@ -146,12 +164,12 @@ def collect_metrics(session, device_id=1):
     session.commit()
     return snapshot
 
-def create_gauge(value, title, min_val=0, max_val=100):
-    """Create a gauge chart"""
+def create_gauge(value, title, min_val=0, max_val=100, subtitle=None):
+    """Create a gauge chart with optional subtitle"""
     fig = go.Figure(go.Indicator(
         mode="gauge+number",
         value=value,
-        title={'text': title},
+        title={'text': f"{title}<br><sub>{subtitle}</sub>" if subtitle else title},
         gauge={
             'axis': {'range': [min_val, max_val]},
             'bar': {'color': 'darkblue'},
@@ -178,65 +196,81 @@ def main():
     # Add a refresh rate selector
     refresh_rate = st.sidebar.slider("Refresh Rate (seconds)", min_value=1, max_value=60, value=5)
     
-    # Initialize database and create default device if needed
-    session = get_db_session()
-    device = session.query(Device).filter_by(id=1).first()
-    if not device:
-        device = Device(id=1, name='Default Device', device_type='System')
-        session.add(device)
-        session.commit()
-    
-    # Always collect new metrics
-    collect_metrics(session)
-    
-    # Live Metrics Section
-    st.header("Live Metrics")
-    col1, col2 = st.columns(2)
-    
     try:
+        # Initialize database and create default device if needed
+        session = get_db_session()
+        device = session.query(Device).filter_by(id=1).first()
+        if not device:
+            device = Device(id=1, name='Default Device', device_type='System')
+            session.add(device)
+            session.commit()
+        
+        # Always collect new metrics
+        collect_metrics(session)
+        
+        # Live Metrics Section
+        st.header("Live Metrics")
+        col1, col2 = st.columns(2)
+        
         # Get latest metrics
         latest = session.query(Snapshot).order_by(Snapshot.timestamp.desc()).first()
         
-        if latest:
+        if latest and latest.system_metrics:
             # RAM Usage Gauge
             with col1:
-                ram_value = latest.system_metrics.ram_usage_percent if latest.system_metrics else 0
-                st.plotly_chart(create_gauge(ram_value, 'RAM Usage %'), use_container_width=True)
+                ram_value = latest.system_metrics.ram_usage_percent
+                ram_used = round(psutil.virtual_memory().used / (1024**3), 2)
+                ram_total = round(psutil.virtual_memory().total / (1024**3), 2)
+                st.plotly_chart(create_gauge(
+                    ram_value, 
+                    'RAM Usage %', 
+                    subtitle=f'{ram_used}GB / {ram_total}GB',
+                ), use_container_width=True)
             
             # Thread Count Gauge
             with col2:
-                thread_value = latest.system_metrics.thread_count if latest.system_metrics else 0
-                st.plotly_chart(create_gauge(thread_value, 'Thread Count', max_val=50), use_container_width=True)
+                thread_value = latest.system_metrics.thread_count
+                st.plotly_chart(create_gauge(
+                    thread_value, 
+                    'Process Threads', 
+                    max_val=max(thread_value * 1.2, 50),
+                    subtitle='Threads in current process'
+                ), use_container_width=True)
             
-            # Crypto Prices
+            # Crypto Prices in their own row
             crypto_col1, crypto_col2 = st.columns(2)
             
             with crypto_col1:
-                st.metric(
-                    "Bitcoin Price (USD)",
-                    f"${latest.crypto_metrics.bitcoin_price_usd:,.2f}" if (latest.crypto_metrics and latest.crypto_metrics.bitcoin_price_usd) else "N/A"
-                )
+                if latest.crypto_metrics and latest.crypto_metrics.bitcoin_price_usd:
+                    st.metric(
+                        "Bitcoin Price (USD)",
+                        f"${latest.crypto_metrics.bitcoin_price_usd:,.2f}"
+                    )
+                else:
+                    st.metric("Bitcoin Price (USD)", "N/A")
             
             with crypto_col2:
-                st.metric(
-                    "Ethereum Price (USD)",
-                    f"${latest.crypto_metrics.ethereum_price_usd:,.2f}" if (latest.crypto_metrics and latest.crypto_metrics.ethereum_price_usd) else "N/A"
-                )
-    
-    except Exception as e:
-        st.error(f"Error fetching live metrics: {str(e)}")
-    
-    # Historical Data Section
-    st.header("Historical Data")
-    
-    # Time range selector
-    time_range = st.selectbox(
-        "Select Time Range",
-        options=['Last 24 Hours', 'Last Week'],
-        index=0
-    )
-    
-    try:
+                if latest.crypto_metrics and latest.crypto_metrics.ethereum_price_usd:
+                    st.metric(
+                        "Ethereum Price (USD)",
+                        f"${latest.crypto_metrics.ethereum_price_usd:,.2f}"
+                    )
+                else:
+                    st.metric("Ethereum Price (USD)", "N/A")
+        
+        else:
+            st.info("Waiting for metrics data...")
+        
+        # Historical Data Section
+        st.header("Historical Data")
+        
+        # Time range selector
+        time_range = st.selectbox(
+            "Select Time Range",
+            options=['Last 24 Hours', 'Last Week'],
+            index=0
+        )
+        
         # Calculate time range
         end_time = datetime.now(UTC)
         if time_range == 'Last 24 Hours':
@@ -277,25 +311,27 @@ def main():
             st.plotly_chart(system_fig, use_container_width=True)
             
             # Crypto Prices Chart
-            crypto_fig = go.Figure()
-            crypto_fig.add_trace(go.Scatter(x=df['timestamp'], y=df['bitcoin_price'],
-                                          name='Bitcoin', mode='lines+markers'))
-            crypto_fig.add_trace(go.Scatter(x=df['timestamp'], y=df['ethereum_price'],
-                                          name='Ethereum', mode='lines+markers'))
-            
-            crypto_fig.update_layout(
-                title='Cryptocurrency Prices Over Time',
-                yaxis={'title': 'Price (USD)'},
-                hovermode='x unified'
-            )
-            
-            st.plotly_chart(crypto_fig, use_container_width=True)
+            if any(df['bitcoin_price'].notna()) or any(df['ethereum_price'].notna()):
+                crypto_fig = go.Figure()
+                crypto_fig.add_trace(go.Scatter(x=df['timestamp'], y=df['bitcoin_price'],
+                                              name='Bitcoin', mode='lines+markers'))
+                crypto_fig.add_trace(go.Scatter(x=df['timestamp'], y=df['ethereum_price'],
+                                              name='Ethereum', mode='lines+markers'))
+                
+                crypto_fig.update_layout(
+                    title='Cryptocurrency Prices Over Time',
+                    yaxis={'title': 'Price (USD)'},
+                    hovermode='x unified'
+                )
+                
+                st.plotly_chart(crypto_fig, use_container_width=True)
             
             # Data Table
             st.dataframe(
                 df.assign(
                     timestamp=df['timestamp'].dt.strftime('%Y-%m-%d %H:%M:%S'),
                     ram_usage=df['ram_usage'].round(2),
+                    thread_count=df['thread_count'].round(2),
                     bitcoin_price=df['bitcoin_price'].round(2),
                     ethereum_price=df['ethereum_price'].round(2)
                 )
@@ -305,10 +341,11 @@ def main():
             st.info("No historical data available")
             
     except Exception as e:
-        st.error(f"Error fetching historical data: {str(e)}")
+        st.error(f"Error in dashboard: {str(e)}")
     
     finally:
-        session.close()
+        if 'session' in locals():
+            session.close()
     
     # Auto-refresh
     time.sleep(refresh_rate)
