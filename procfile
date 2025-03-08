@@ -1,0 +1,2 @@
+web: gunicorn src.wsgi_api:application
+worker: gunicorn src.wsgi_dashboard:application
