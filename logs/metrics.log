@@ -2894,3 +2894,4377 @@
   "bitcoin_price_usd": 85961,
   "ethereum_price_usd": 2207.36
 }
+2025-03-08 22:17:04,953 - MetricsCollector - INFO - Collected and stored metrics: {
+  "timestamp": "2025-03-08T22:17:04.939728",
+  "system": {
+    "thread_count": 2,
+    "ram_usage_percent": 90.0
+  },
+  "bitcoin_price_usd": 85961,
+  "ethereum_price_usd": 2207.36
+}
+2025-03-08 22:18:05,601 - MetricsCollector - INFO - Collected and stored metrics: {
+  "timestamp": "2025-03-08T22:18:05.587011",
+  "system": {
+    "thread_count": 2,
+    "ram_usage_percent": 88.7
+  },
+  "bitcoin_price_usd": 86018,
+  "ethereum_price_usd": 2208.44
+}
+2025-03-08 22:19:06,229 - MetricsCollector - INFO - Collected and stored metrics: {
+  "timestamp": "2025-03-08T22:19:06.208919",
+  "system": {
+    "thread_count": 2,
+    "ram_usage_percent": 87.9
+  },
+  "bitcoin_price_usd": 86020,
+  "ethereum_price_usd": 2207.97
+}
+2025-03-08 22:41:54,444 - MetricsCollector - INFO - Collected and stored metrics: {
+  "timestamp": "2025-03-08T22:41:54.397393",
+  "system": {
+    "thread_count": 8,
+    "ram_usage_percent": 58.8
+  },
+  "bitcoin_price_usd": null,
+  "ethereum_price_usd": null
+}
+2025-03-08 22:43:05,931 - MetricsCollector - INFO - Collected and stored metrics: {
+  "timestamp": "2025-03-08T22:43:05.916939",
+  "system": {
+    "thread_count": 6,
+    "ram_usage_percent": 63.5
+  },
+  "bitcoin_price_usd": 86166,
+  "ethereum_price_usd": 2207.4
+}
+2025-03-08 22:44:12,065 - MetricsCollector - INFO - Collected and stored metrics: {
+  "timestamp": "2025-03-08T22:44:12.049631",
+  "system": {
+    "thread_count": 7,
+    "ram_usage_percent": 65.9
+  },
+  "bitcoin_price_usd": 86152,
+  "ethereum_price_usd": 2207.19
+}
+2025-03-08 22:45:12,491 - MetricsCollector - INFO - Collected and stored metrics: {
+  "timestamp": "2025-03-08T22:45:12.489906",
+  "system": {
+    "thread_count": 6,
+    "ram_usage_percent": 67.6
+  },
+  "bitcoin_price_usd": 86098,
+  "ethereum_price_usd": 2205.73
+}
+2025-03-08 22:46:12,960 - MetricsCollector - INFO - Collected and stored metrics: {
+  "timestamp": "2025-03-08T22:46:12.944472",
+  "system": {
+    "thread_count": 6,
+    "ram_usage_percent": 69.0
+  },
+  "bitcoin_price_usd": 86098,
+  "ethereum_price_usd": 2205.73
+}
+2025-03-08 22:47:13,740 - MetricsCollector - INFO - Collected and stored metrics: {
+  "timestamp": "2025-03-08T22:47:13.725222",
+  "system": {
+    "thread_count": 6,
+    "ram_usage_percent": 63.3
+  },
+  "bitcoin_price_usd": 86077,
+  "ethereum_price_usd": 2205.02
+}
+2025-03-08 22:48:13,989 - MetricsCollector - INFO - Collected and stored metrics: {
+  "timestamp": "2025-03-08T22:48:13.974305",
+  "system": {
+    "thread_count": 6,
+    "ram_usage_percent": 63.8
+  },
+  "bitcoin_price_usd": 86077,
+  "ethereum_price_usd": 2205.02
+}
+2025-03-08 22:49:14,420 - MetricsCollector - INFO - Collected and stored metrics: {
+  "timestamp": "2025-03-08T22:49:14.420675",
+  "system": {
+    "thread_count": 5,
+    "ram_usage_percent": 63.8
+  },
+  "bitcoin_price_usd": 86092,
+  "ethereum_price_usd": 2205.42
+}
+2025-03-08 22:50:14,885 - MetricsCollector - INFO - Collected and stored metrics: {
+  "timestamp": "2025-03-08T22:50:14.806360",
+  "system": {
+    "thread_count": 5,
+    "ram_usage_percent": 70.5
+  },
+  "bitcoin_price_usd": 86092,
+  "ethereum_price_usd": 2205.42
+}
+2025-03-08 22:51:15,231 - MetricsCollector - INFO - Collected and stored metrics: {
+  "timestamp": "2025-03-08T22:51:15.215427",
+  "system": {
+    "thread_count": 5,
+    "ram_usage_percent": 66.7
+  },
+  "bitcoin_price_usd": 86131,
+  "ethereum_price_usd": 2206.88
+}
+2025-03-08 22:52:15,530 - MetricsCollector - INFO - Collected and stored metrics: {
+  "timestamp": "2025-03-08T22:52:15.515004",
+  "system": {
+    "thread_count": 5,
+    "ram_usage_percent": 67.6
+  },
+  "bitcoin_price_usd": 86131,
+  "ethereum_price_usd": 2206.88
+}
+2025-03-08 22:53:16,028 - MetricsCollector - INFO - Collected and stored metrics: {
+  "timestamp": "2025-03-08T22:53:16.012250",
+  "system": {
+    "thread_count": 5,
+    "ram_usage_percent": 69.8
+  },
+  "bitcoin_price_usd": 86144,
+  "ethereum_price_usd": 2207.4
+}
+2025-03-08 22:54:16,460 - MetricsCollector - INFO - Collected and stored metrics: {
+  "timestamp": "2025-03-08T22:54:16.422868",
+  "system": {
+    "thread_count": 5,
+    "ram_usage_percent": 68.3
+  },
+  "bitcoin_price_usd": 86147,
+  "ethereum_price_usd": 2207.58
+}
+2025-03-08 22:55:16,829 - MetricsCollector - INFO - Collected and stored metrics: {
+  "timestamp": "2025-03-08T22:55:16.811611",
+  "system": {
+    "thread_count": 5,
+    "ram_usage_percent": 66.8
+  },
+  "bitcoin_price_usd": 86147,
+  "ethereum_price_usd": 2207.58
+}
+2025-03-08 22:56:17,174 - MetricsCollector - INFO - Collected and stored metrics: {
+  "timestamp": "2025-03-08T22:56:17.159076",
+  "system": {
+    "thread_count": 5,
+    "ram_usage_percent": 66.5
+  },
+  "bitcoin_price_usd": 86143,
+  "ethereum_price_usd": 2207.0
+}
+2025-03-08 22:57:17,437 - MetricsCollector - INFO - Collected and stored metrics: {
+  "timestamp": "2025-03-08T22:57:17.422088",
+  "system": {
+    "thread_count": 5,
+    "ram_usage_percent": 66.4
+  },
+  "bitcoin_price_usd": 86143,
+  "ethereum_price_usd": 2207.0
+}
+2025-03-08 22:58:18,070 - MetricsCollector - INFO - Collected and stored metrics: {
+  "timestamp": "2025-03-08T22:58:18.054543",
+  "system": {
+    "thread_count": 5,
+    "ram_usage_percent": 66.2
+  },
+  "bitcoin_price_usd": 86129,
+  "ethereum_price_usd": 2205.74
+}
+2025-03-08 22:59:18,722 - MetricsCollector - INFO - Collected and stored metrics: {
+  "timestamp": "2025-03-08T22:59:18.688957",
+  "system": {
+    "thread_count": 5,
+    "ram_usage_percent": 67.6
+  },
+  "bitcoin_price_usd": 86117,
+  "ethereum_price_usd": 2205.21
+}
+2025-03-08 23:00:19,207 - MetricsCollector - INFO - Collected and stored metrics: {
+  "timestamp": "2025-03-08T23:00:19.185678",
+  "system": {
+    "thread_count": 5,
+    "ram_usage_percent": 68.4
+  },
+  "bitcoin_price_usd": 86145,
+  "ethereum_price_usd": 2205.39
+}
+2025-03-08 23:01:19,432 - MetricsCollector - INFO - Collected and stored metrics: {
+  "timestamp": "2025-03-08T23:01:19.427023",
+  "system": {
+    "thread_count": 4,
+    "ram_usage_percent": 66.8
+  },
+  "bitcoin_price_usd": 86145,
+  "ethereum_price_usd": 2205.39
+}
+2025-03-08 23:02:19,784 - MetricsCollector - INFO - Collected and stored metrics: {
+  "timestamp": "2025-03-08T23:02:19.768945",
+  "system": {
+    "thread_count": 4,
+    "ram_usage_percent": 66.5
+  },
+  "bitcoin_price_usd": 86303,
+  "ethereum_price_usd": 2208.24
+}
+2025-03-08 23:03:20,370 - MetricsCollector - INFO - Collected and stored metrics: {
+  "timestamp": "2025-03-08T23:03:20.355017",
+  "system": {
+    "thread_count": 4,
+    "ram_usage_percent": 65.8
+  },
+  "bitcoin_price_usd": 86337,
+  "ethereum_price_usd": 2208.45
+}
+2025-03-08 23:04:20,917 - MetricsCollector - INFO - Collected and stored metrics: {
+  "timestamp": "2025-03-08T23:04:20.903722",
+  "system": {
+    "thread_count": 4,
+    "ram_usage_percent": 67.6
+  },
+  "bitcoin_price_usd": 86337,
+  "ethereum_price_usd": 2208.45
+}
+2025-03-08 23:05:21,253 - MetricsCollector - INFO - Collected and stored metrics: {
+  "timestamp": "2025-03-08T23:05:21.237654",
+  "system": {
+    "thread_count": 4,
+    "ram_usage_percent": 66.6
+  },
+  "bitcoin_price_usd": 86312,
+  "ethereum_price_usd": 2208.14
+}
+2025-03-08 23:06:21,497 - MetricsCollector - INFO - Collected and stored metrics: {
+  "timestamp": "2025-03-08T23:06:21.482366",
+  "system": {
+    "thread_count": 4,
+    "ram_usage_percent": 66.6
+  },
+  "bitcoin_price_usd": 86312,
+  "ethereum_price_usd": 2208.14
+}
+2025-03-08 23:07:22,362 - MetricsCollector - INFO - Collected and stored metrics: {
+  "timestamp": "2025-03-08T23:07:22.361537",
+  "system": {
+    "thread_count": 4,
+    "ram_usage_percent": 67.0
+  },
+  "bitcoin_price_usd": 86223,
+  "ethereum_price_usd": 2204.68
+}
+2025-03-08 23:08:22,697 - MetricsCollector - INFO - Collected and stored metrics: {
+  "timestamp": "2025-03-08T23:08:22.687202",
+  "system": {
+    "thread_count": 4,
+    "ram_usage_percent": 73.6
+  },
+  "bitcoin_price_usd": 86223,
+  "ethereum_price_usd": 2204.68
+}
+2025-03-08 23:09:23,473 - MetricsCollector - INFO - Collected and stored metrics: {
+  "timestamp": "2025-03-08T23:09:23.450071",
+  "system": {
+    "thread_count": 4,
+    "ram_usage_percent": 71.9
+  },
+  "bitcoin_price_usd": 86292,
+  "ethereum_price_usd": 2205.13
+}
+2025-03-08 23:10:23,869 - MetricsCollector - INFO - Collected and stored metrics: {
+  "timestamp": "2025-03-08T23:10:23.854518",
+  "system": {
+    "thread_count": 4,
+    "ram_usage_percent": 70.6
+  },
+  "bitcoin_price_usd": 86292,
+  "ethereum_price_usd": 2205.13
+}
+2025-03-08 23:11:24,433 - MetricsCollector - INFO - Collected and stored metrics: {
+  "timestamp": "2025-03-08T23:11:24.402210",
+  "system": {
+    "thread_count": 2,
+    "ram_usage_percent": 71.7
+  },
+  "bitcoin_price_usd": 86328,
+  "ethereum_price_usd": 2206.5
+}
+2025-03-08 23:12:24,713 - MetricsCollector - INFO - Collected and stored metrics: {
+  "timestamp": "2025-03-08T23:12:24.696466",
+  "system": {
+    "thread_count": 2,
+    "ram_usage_percent": 72.7
+  },
+  "bitcoin_price_usd": 86328,
+  "ethereum_price_usd": 2206.5
+}
+2025-03-08 23:13:25,147 - MetricsCollector - INFO - Collected and stored metrics: {
+  "timestamp": "2025-03-08T23:13:25.129666",
+  "system": {
+    "thread_count": 2,
+    "ram_usage_percent": 72.7
+  },
+  "bitcoin_price_usd": 86301,
+  "ethereum_price_usd": 2205.79
+}
+2025-03-08 23:14:25,455 - MetricsCollector - INFO - Collected and stored metrics: {
+  "timestamp": "2025-03-08T23:14:25.440349",
+  "system": {
+    "thread_count": 2,
+    "ram_usage_percent": 69.7
+  },
+  "bitcoin_price_usd": 86301,
+  "ethereum_price_usd": 2205.79
+}
+2025-03-08 23:15:26,086 - MetricsCollector - INFO - Collected and stored metrics: {
+  "timestamp": "2025-03-08T23:15:26.086624",
+  "system": {
+    "thread_count": 2,
+    "ram_usage_percent": 69.7
+  },
+  "bitcoin_price_usd": 86341,
+  "ethereum_price_usd": 2206.09
+}
+2025-03-08 23:16:26,424 - MetricsCollector - INFO - Collected and stored metrics: {
+  "timestamp": "2025-03-08T23:16:26.420297",
+  "system": {
+    "thread_count": 2,
+    "ram_usage_percent": 70.0
+  },
+  "bitcoin_price_usd": 86341,
+  "ethereum_price_usd": 2206.09
+}
+2025-03-08 23:17:27,022 - MetricsCollector - INFO - Collected and stored metrics: {
+  "timestamp": "2025-03-08T23:17:26.999415",
+  "system": {
+    "thread_count": 2,
+    "ram_usage_percent": 69.9
+  },
+  "bitcoin_price_usd": 86335,
+  "ethereum_price_usd": 2206.0
+}
+2025-03-08 23:18:27,378 - MetricsCollector - INFO - Collected and stored metrics: {
+  "timestamp": "2025-03-08T23:18:27.363552",
+  "system": {
+    "thread_count": 2,
+    "ram_usage_percent": 69.9
+  },
+  "bitcoin_price_usd": 86304,
+  "ethereum_price_usd": 2205.5
+}
+2025-03-08 23:19:27,684 - MetricsCollector - INFO - Collected and stored metrics: {
+  "timestamp": "2025-03-08T23:19:27.659175",
+  "system": {
+    "thread_count": 2,
+    "ram_usage_percent": 68.6
+  },
+  "bitcoin_price_usd": 86304,
+  "ethereum_price_usd": 2205.5
+}
+2025-03-08 23:20:28,081 - MetricsCollector - INFO - Collected and stored metrics: {
+  "timestamp": "2025-03-08T23:20:28.065907",
+  "system": {
+    "thread_count": 2,
+    "ram_usage_percent": 68.4
+  },
+  "bitcoin_price_usd": 86224,
+  "ethereum_price_usd": 2203.58
+}
+2025-03-08 23:21:28,338 - MetricsCollector - INFO - Collected and stored metrics: {
+  "timestamp": "2025-03-08T23:21:28.323121",
+  "system": {
+    "thread_count": 2,
+    "ram_usage_percent": 67.8
+  },
+  "bitcoin_price_usd": 86224,
+  "ethereum_price_usd": 2203.58
+}
+2025-03-08 23:22:28,957 - MetricsCollector - INFO - Collected and stored metrics: {
+  "timestamp": "2025-03-08T23:22:28.941776",
+  "system": {
+    "thread_count": 2,
+    "ram_usage_percent": 68.8
+  },
+  "bitcoin_price_usd": 86240,
+  "ethereum_price_usd": 2203.39
+}
+2025-03-08 23:23:29,759 - MetricsCollector - INFO - Collected and stored metrics: {
+  "timestamp": "2025-03-08T23:23:29.734788",
+  "system": {
+    "thread_count": 2,
+    "ram_usage_percent": 72.0
+  },
+  "bitcoin_price_usd": 86282,
+  "ethereum_price_usd": 2204.67
+}
+2025-03-08 23:24:30,001 - MetricsCollector - INFO - Collected and stored metrics: {
+  "timestamp": "2025-03-08T23:24:29.986283",
+  "system": {
+    "thread_count": 2,
+    "ram_usage_percent": 72.5
+  },
+  "bitcoin_price_usd": 86282,
+  "ethereum_price_usd": 2204.67
+}
+2025-03-08 23:25:30,724 - MetricsCollector - INFO - Collected and stored metrics: {
+  "timestamp": "2025-03-08T23:25:30.710509",
+  "system": {
+    "thread_count": 2,
+    "ram_usage_percent": 69.8
+  },
+  "bitcoin_price_usd": 86283,
+  "ethereum_price_usd": 2204.52
+}
+2025-03-08 23:26:31,069 - MetricsCollector - INFO - Collected and stored metrics: {
+  "timestamp": "2025-03-08T23:26:31.045321",
+  "system": {
+    "thread_count": 2,
+    "ram_usage_percent": 69.8
+  },
+  "bitcoin_price_usd": 86283,
+  "ethereum_price_usd": 2204.52
+}
+2025-03-08 23:27:31,494 - MetricsCollector - INFO - Collected and stored metrics: {
+  "timestamp": "2025-03-08T23:27:31.478941",
+  "system": {
+    "thread_count": 2,
+    "ram_usage_percent": 69.3
+  },
+  "bitcoin_price_usd": 86275,
+  "ethereum_price_usd": 2203.32
+}
+2025-03-08 23:28:31,720 - MetricsCollector - INFO - Collected and stored metrics: {
+  "timestamp": "2025-03-08T23:28:31.705057",
+  "system": {
+    "thread_count": 2,
+    "ram_usage_percent": 68.9
+  },
+  "bitcoin_price_usd": 86275,
+  "ethereum_price_usd": 2203.32
+}
+2025-03-08 23:29:32,337 - MetricsCollector - INFO - Collected and stored metrics: {
+  "timestamp": "2025-03-08T23:29:32.321645",
+  "system": {
+    "thread_count": 2,
+    "ram_usage_percent": 69.6
+  },
+  "bitcoin_price_usd": 86223,
+  "ethereum_price_usd": 2201.86
+}
+2025-03-08 23:30:32,612 - MetricsCollector - INFO - Collected and stored metrics: {
+  "timestamp": "2025-03-08T23:30:32.597078",
+  "system": {
+    "thread_count": 2,
+    "ram_usage_percent": 70.1
+  },
+  "bitcoin_price_usd": 86223,
+  "ethereum_price_usd": 2201.86
+}
+2025-03-08 23:31:33,064 - MetricsCollector - INFO - Collected and stored metrics: {
+  "timestamp": "2025-03-08T23:31:33.043639",
+  "system": {
+    "thread_count": 2,
+    "ram_usage_percent": 69.7
+  },
+  "bitcoin_price_usd": 86242,
+  "ethereum_price_usd": 2201.8
+}
+2025-03-08 23:32:33,477 - MetricsCollector - INFO - Collected and stored metrics: {
+  "timestamp": "2025-03-08T23:32:33.446136",
+  "system": {
+    "thread_count": 2,
+    "ram_usage_percent": 70.8
+  },
+  "bitcoin_price_usd": 86243,
+  "ethereum_price_usd": 2201.67
+}
+2025-03-08 23:33:33,799 - MetricsCollector - INFO - Collected and stored metrics: {
+  "timestamp": "2025-03-08T23:33:33.799722",
+  "system": {
+    "thread_count": 2,
+    "ram_usage_percent": 70.7
+  },
+  "bitcoin_price_usd": 86243,
+  "ethereum_price_usd": 2201.67
+}
+2025-03-08 23:34:34,594 - MetricsCollector - INFO - Collected and stored metrics: {
+  "timestamp": "2025-03-08T23:34:34.567049",
+  "system": {
+    "thread_count": 2,
+    "ram_usage_percent": 71.6
+  },
+  "bitcoin_price_usd": 86274,
+  "ethereum_price_usd": 2201.71
+}
+2025-03-08 23:35:34,864 - MetricsCollector - INFO - Collected and stored metrics: {
+  "timestamp": "2025-03-08T23:35:34.848817",
+  "system": {
+    "thread_count": 2,
+    "ram_usage_percent": 69.9
+  },
+  "bitcoin_price_usd": 86274,
+  "ethereum_price_usd": 2201.71
+}
+2025-03-08 23:36:35,291 - MetricsCollector - INFO - Collected and stored metrics: {
+  "timestamp": "2025-03-08T23:36:35.276953",
+  "system": {
+    "thread_count": 2,
+    "ram_usage_percent": 75.3
+  },
+  "bitcoin_price_usd": 86274,
+  "ethereum_price_usd": 2201.17
+}
+2025-03-08 23:37:35,634 - MetricsCollector - INFO - Collected and stored metrics: {
+  "timestamp": "2025-03-08T23:37:35.615554",
+  "system": {
+    "thread_count": 2,
+    "ram_usage_percent": 73.5
+  },
+  "bitcoin_price_usd": 86274,
+  "ethereum_price_usd": 2201.17
+}
+2025-03-08 23:38:36,052 - MetricsCollector - INFO - Collected and stored metrics: {
+  "timestamp": "2025-03-08T23:38:36.037355",
+  "system": {
+    "thread_count": 2,
+    "ram_usage_percent": 73.7
+  },
+  "bitcoin_price_usd": 86102,
+  "ethereum_price_usd": 2195.12
+}
+2025-03-08 23:39:36,564 - MetricsCollector - INFO - Collected and stored metrics: {
+  "timestamp": "2025-03-08T23:39:36.550801",
+  "system": {
+    "thread_count": 2,
+    "ram_usage_percent": 72.7
+  },
+  "bitcoin_price_usd": 86090,
+  "ethereum_price_usd": 2196.62
+}
+2025-03-08 23:40:37,346 - MetricsCollector - INFO - Collected and stored metrics: {
+  "timestamp": "2025-03-08T23:40:37.326908",
+  "system": {
+    "thread_count": 2,
+    "ram_usage_percent": 74.6
+  },
+  "bitcoin_price_usd": 86113,
+  "ethereum_price_usd": 2196.4
+}
+2025-03-08 23:41:37,768 - MetricsCollector - INFO - Collected and stored metrics: {
+  "timestamp": "2025-03-08T23:41:37.752824",
+  "system": {
+    "thread_count": 2,
+    "ram_usage_percent": 75.5
+  },
+  "bitcoin_price_usd": 86113,
+  "ethereum_price_usd": 2196.4
+}
+2025-03-08 23:42:38,104 - MetricsCollector - INFO - Collected and stored metrics: {
+  "timestamp": "2025-03-08T23:42:38.088593",
+  "system": {
+    "thread_count": 2,
+    "ram_usage_percent": 75.2
+  },
+  "bitcoin_price_usd": 86070,
+  "ethereum_price_usd": 2195.65
+}
+2025-03-08 23:43:38,505 - MetricsCollector - INFO - Collected and stored metrics: {
+  "timestamp": "2025-03-08T23:43:38.357346",
+  "system": {
+    "thread_count": 2,
+    "ram_usage_percent": 76.1
+  },
+  "bitcoin_price_usd": 86070,
+  "ethereum_price_usd": 2195.65
+}
+2025-03-08 23:44:39,204 - MetricsCollector - INFO - Collected and stored metrics: {
+  "timestamp": "2025-03-08T23:44:39.189235",
+  "system": {
+    "thread_count": 2,
+    "ram_usage_percent": 73.8
+  },
+  "bitcoin_price_usd": 86065,
+  "ethereum_price_usd": 2195.06
+}
+2025-03-08 23:45:39,562 - MetricsCollector - INFO - Collected and stored metrics: {
+  "timestamp": "2025-03-08T23:45:39.554149",
+  "system": {
+    "thread_count": 2,
+    "ram_usage_percent": 74.5
+  },
+  "bitcoin_price_usd": 86065,
+  "ethereum_price_usd": 2195.06
+}
+2025-03-08 23:46:39,971 - MetricsCollector - INFO - Collected and stored metrics: {
+  "timestamp": "2025-03-08T23:46:39.946274",
+  "system": {
+    "thread_count": 2,
+    "ram_usage_percent": 73.9
+  },
+  "bitcoin_price_usd": 86086,
+  "ethereum_price_usd": 2195.83
+}
+2025-03-08 23:47:40,512 - MetricsCollector - INFO - Collected and stored metrics: {
+  "timestamp": "2025-03-08T23:47:40.497498",
+  "system": {
+    "thread_count": 2,
+    "ram_usage_percent": 74.2
+  },
+  "bitcoin_price_usd": 86041,
+  "ethereum_price_usd": 2194.94
+}
+2025-03-08 23:48:40,754 - MetricsCollector - INFO - Collected and stored metrics: {
+  "timestamp": "2025-03-08T23:48:40.739145",
+  "system": {
+    "thread_count": 2,
+    "ram_usage_percent": 74.1
+  },
+  "bitcoin_price_usd": 86041,
+  "ethereum_price_usd": 2194.94
+}
+2025-03-08 23:49:41,308 - MetricsCollector - INFO - Collected and stored metrics: {
+  "timestamp": "2025-03-08T23:49:41.294565",
+  "system": {
+    "thread_count": 2,
+    "ram_usage_percent": 73.2
+  },
+  "bitcoin_price_usd": 86083,
+  "ethereum_price_usd": 2195.59
+}
+2025-03-08 23:50:41,864 - MetricsCollector - INFO - Collected and stored metrics: {
+  "timestamp": "2025-03-08T23:50:41.848553",
+  "system": {
+    "thread_count": 2,
+    "ram_usage_percent": 74.0
+  },
+  "bitcoin_price_usd": 86083,
+  "ethereum_price_usd": 2195.59
+}
+2025-03-09 16:27:27,263 - MetricsCollector - INFO - Sending metrics to API at https://jameskelly.pythonanywhere.com
+2025-03-09 16:27:29,005 - MetricsCollector - INFO - Collected and stored metrics: {
+  "timestamp": "2025-03-09T16:27:28.974645",
+  "system": {
+    "thread_count": 8,
+    "ram_usage_percent": 65.8
+  },
+  "bitcoin_price_usd": 83204,
+  "ethereum_price_usd": 2094.61
+}
+2025-03-09 16:27:30,594 - MetricsCollector - ERROR - Failed to send metrics to API: 404 - <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Coming Soon: PythonAnywhere</title>
+        <style>
+            body {
+                font-family: Helvetica, Arial, sans-serif;
+                width: 500px;
+                margin-left: auto;
+                margin-right: auto;
+                margin-top: 20px;
+            }
+
+            h1 {
+                font-family: Trebuchet MS, Helvetica, Arial, sans-serif;
+            }
+
+            .for-site-owner {
+                font-size: smaller;
+                margin-top: 30px;
+                color: gray;
+            }
+        </style>
+    </head>
+
+    <body>
+        <img src="https://s3.amazonaws.com/pythonanywhere-error-images/logo-234x35.png" />
+
+        <div class="main">
+            <h1>Coming Soon!</h1>
+
+            <p>
+                This is going to be another great website hosted by
+                <a href="https://www.pythonanywhere.com/">PythonAnywhere</a>.
+            </p>
+
+            <p>
+                PythonAnywhere lets you host, run, and code Python in the cloud.
+                Our free plan gives you access to machines with
+                everything already set up for you. You can develop and host
+                your website or any other code directly from your browser
+                without having to install software or manage your own server.
+            </p>
+
+            <p>
+                Need more power? Upgraded plans start at $5/month.
+            </p>
+
+            <p>
+                <a href="https://www.pythonanywhere.com/">You can find out more about PythonAnywhere here.</a>
+            </p>
+        </div>
+
+        <div class="for-site-owner">
+            <h2>Developer info</h2>
+
+            <p>
+                Hi!  If this is your PythonAnywhere-hosted site, then you're
+                almost there &mdash; you just need to create
+                a web app to handle this domain.
+            </p>
+
+            <p>
+                Go to the "Web" tab inside
+                PythonAnywhere and click "Add a new web app".
+                If you already have a web app and you want to use the same code for this domain
+                (say because you've just upgraded and want the site
+                you built at <code>yourusername.pythonanywhere.com</code> to run on
+                <code>www.yourdomain.com</code>) then
+                <a href="https://help.pythonanywhere.com/pages/UsingANewDomainForExistingWebApp">this help page should explain
+                everything</a>.
+            </p>
+
+            <p>
+                If you're having problems getting it all working, drop us a line at
+                liveusercare@pythonanywhere.com, or in
+                <a href="https://www.pythonanywhere.com/forums/">the forums</a>,
+                or using the "Send
+                feedback" link on the site.  We'll
+                get back to you as fast as we can!
+            </p>
+
+        </div>
+
+    </body>
+</html>
+
+2025-03-09 16:28:31,113 - MetricsCollector - INFO - Collected and stored metrics: {
+  "timestamp": "2025-03-09T16:28:31.107032",
+  "system": {
+    "thread_count": 6,
+    "ram_usage_percent": 69.8
+  },
+  "bitcoin_price_usd": 83166,
+  "ethereum_price_usd": 2093.48
+}
+2025-03-09 16:28:31,649 - MetricsCollector - ERROR - Failed to send metrics to API: 404 - <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Coming Soon: PythonAnywhere</title>
+        <style>
+            body {
+                font-family: Helvetica, Arial, sans-serif;
+                width: 500px;
+                margin-left: auto;
+                margin-right: auto;
+                margin-top: 20px;
+            }
+
+            h1 {
+                font-family: Trebuchet MS, Helvetica, Arial, sans-serif;
+            }
+
+            .for-site-owner {
+                font-size: smaller;
+                margin-top: 30px;
+                color: gray;
+            }
+        </style>
+    </head>
+
+    <body>
+        <img src="https://s3.amazonaws.com/pythonanywhere-error-images/logo-234x35.png" />
+
+        <div class="main">
+            <h1>Coming Soon!</h1>
+
+            <p>
+                This is going to be another great website hosted by
+                <a href="https://www.pythonanywhere.com/">PythonAnywhere</a>.
+            </p>
+
+            <p>
+                PythonAnywhere lets you host, run, and code Python in the cloud.
+                Our free plan gives you access to machines with
+                everything already set up for you. You can develop and host
+                your website or any other code directly from your browser
+                without having to install software or manage your own server.
+            </p>
+
+            <p>
+                Need more power? Upgraded plans start at $5/month.
+            </p>
+
+            <p>
+                <a href="https://www.pythonanywhere.com/">You can find out more about PythonAnywhere here.</a>
+            </p>
+        </div>
+
+        <div class="for-site-owner">
+            <h2>Developer info</h2>
+
+            <p>
+                Hi!  If this is your PythonAnywhere-hosted site, then you're
+                almost there &mdash; you just need to create
+                a web app to handle this domain.
+            </p>
+
+            <p>
+                Go to the "Web" tab inside
+                PythonAnywhere and click "Add a new web app".
+                If you already have a web app and you want to use the same code for this domain
+                (say because you've just upgraded and want the site
+                you built at <code>yourusername.pythonanywhere.com</code> to run on
+                <code>www.yourdomain.com</code>) then
+                <a href="https://help.pythonanywhere.com/pages/UsingANewDomainForExistingWebApp">this help page should explain
+                everything</a>.
+            </p>
+
+            <p>
+                If you're having problems getting it all working, drop us a line at
+                liveusercare@pythonanywhere.com, or in
+                <a href="https://www.pythonanywhere.com/forums/">the forums</a>,
+                or using the "Send
+                feedback" link on the site.  We'll
+                get back to you as fast as we can!
+            </p>
+
+        </div>
+
+    </body>
+</html>
+
+2025-03-09 16:29:32,368 - MetricsCollector - INFO - Collected and stored metrics: {
+  "timestamp": "2025-03-09T16:29:32.335323",
+  "system": {
+    "thread_count": 6,
+    "ram_usage_percent": 70.5
+  },
+  "bitcoin_price_usd": 83126,
+  "ethereum_price_usd": 2091.68
+}
+2025-03-09 16:29:32,816 - MetricsCollector - ERROR - Failed to send metrics to API: 404 - <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Coming Soon: PythonAnywhere</title>
+        <style>
+            body {
+                font-family: Helvetica, Arial, sans-serif;
+                width: 500px;
+                margin-left: auto;
+                margin-right: auto;
+                margin-top: 20px;
+            }
+
+            h1 {
+                font-family: Trebuchet MS, Helvetica, Arial, sans-serif;
+            }
+
+            .for-site-owner {
+                font-size: smaller;
+                margin-top: 30px;
+                color: gray;
+            }
+        </style>
+    </head>
+
+    <body>
+        <img src="https://s3.amazonaws.com/pythonanywhere-error-images/logo-234x35.png" />
+
+        <div class="main">
+            <h1>Coming Soon!</h1>
+
+            <p>
+                This is going to be another great website hosted by
+                <a href="https://www.pythonanywhere.com/">PythonAnywhere</a>.
+            </p>
+
+            <p>
+                PythonAnywhere lets you host, run, and code Python in the cloud.
+                Our free plan gives you access to machines with
+                everything already set up for you. You can develop and host
+                your website or any other code directly from your browser
+                without having to install software or manage your own server.
+            </p>
+
+            <p>
+                Need more power? Upgraded plans start at $5/month.
+            </p>
+
+            <p>
+                <a href="https://www.pythonanywhere.com/">You can find out more about PythonAnywhere here.</a>
+            </p>
+        </div>
+
+        <div class="for-site-owner">
+            <h2>Developer info</h2>
+
+            <p>
+                Hi!  If this is your PythonAnywhere-hosted site, then you're
+                almost there &mdash; you just need to create
+                a web app to handle this domain.
+            </p>
+
+            <p>
+                Go to the "Web" tab inside
+                PythonAnywhere and click "Add a new web app".
+                If you already have a web app and you want to use the same code for this domain
+                (say because you've just upgraded and want the site
+                you built at <code>yourusername.pythonanywhere.com</code> to run on
+                <code>www.yourdomain.com</code>) then
+                <a href="https://help.pythonanywhere.com/pages/UsingANewDomainForExistingWebApp">this help page should explain
+                everything</a>.
+            </p>
+
+            <p>
+                If you're having problems getting it all working, drop us a line at
+                liveusercare@pythonanywhere.com, or in
+                <a href="https://www.pythonanywhere.com/forums/">the forums</a>,
+                or using the "Send
+                feedback" link on the site.  We'll
+                get back to you as fast as we can!
+            </p>
+
+        </div>
+
+    </body>
+</html>
+
+2025-03-09 16:30:33,553 - MetricsCollector - INFO - Collected and stored metrics: {
+  "timestamp": "2025-03-09T16:30:33.534268",
+  "system": {
+    "thread_count": 6,
+    "ram_usage_percent": 70.9
+  },
+  "bitcoin_price_usd": 83165,
+  "ethereum_price_usd": 2092.38
+}
+2025-03-09 16:30:34,001 - MetricsCollector - ERROR - Failed to send metrics to API: 404 - <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Coming Soon: PythonAnywhere</title>
+        <style>
+            body {
+                font-family: Helvetica, Arial, sans-serif;
+                width: 500px;
+                margin-left: auto;
+                margin-right: auto;
+                margin-top: 20px;
+            }
+
+            h1 {
+                font-family: Trebuchet MS, Helvetica, Arial, sans-serif;
+            }
+
+            .for-site-owner {
+                font-size: smaller;
+                margin-top: 30px;
+                color: gray;
+            }
+        </style>
+    </head>
+
+    <body>
+        <img src="https://s3.amazonaws.com/pythonanywhere-error-images/logo-234x35.png" />
+
+        <div class="main">
+            <h1>Coming Soon!</h1>
+
+            <p>
+                This is going to be another great website hosted by
+                <a href="https://www.pythonanywhere.com/">PythonAnywhere</a>.
+            </p>
+
+            <p>
+                PythonAnywhere lets you host, run, and code Python in the cloud.
+                Our free plan gives you access to machines with
+                everything already set up for you. You can develop and host
+                your website or any other code directly from your browser
+                without having to install software or manage your own server.
+            </p>
+
+            <p>
+                Need more power? Upgraded plans start at $5/month.
+            </p>
+
+            <p>
+                <a href="https://www.pythonanywhere.com/">You can find out more about PythonAnywhere here.</a>
+            </p>
+        </div>
+
+        <div class="for-site-owner">
+            <h2>Developer info</h2>
+
+            <p>
+                Hi!  If this is your PythonAnywhere-hosted site, then you're
+                almost there &mdash; you just need to create
+                a web app to handle this domain.
+            </p>
+
+            <p>
+                Go to the "Web" tab inside
+                PythonAnywhere and click "Add a new web app".
+                If you already have a web app and you want to use the same code for this domain
+                (say because you've just upgraded and want the site
+                you built at <code>yourusername.pythonanywhere.com</code> to run on
+                <code>www.yourdomain.com</code>) then
+                <a href="https://help.pythonanywhere.com/pages/UsingANewDomainForExistingWebApp">this help page should explain
+                everything</a>.
+            </p>
+
+            <p>
+                If you're having problems getting it all working, drop us a line at
+                liveusercare@pythonanywhere.com, or in
+                <a href="https://www.pythonanywhere.com/forums/">the forums</a>,
+                or using the "Send
+                feedback" link on the site.  We'll
+                get back to you as fast as we can!
+            </p>
+
+        </div>
+
+    </body>
+</html>
+
+2025-03-09 16:31:35,005 - MetricsCollector - INFO - Collected and stored metrics: {
+  "timestamp": "2025-03-09T16:31:34.832999",
+  "system": {
+    "thread_count": 6,
+    "ram_usage_percent": 69.6
+  },
+  "bitcoin_price_usd": 83222,
+  "ethereum_price_usd": 2093.12
+}
+2025-03-09 16:31:47,361 - MetricsCollector - ERROR - Failed to send metrics to API: 404 - <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Coming Soon: PythonAnywhere</title>
+        <style>
+            body {
+                font-family: Helvetica, Arial, sans-serif;
+                width: 500px;
+                margin-left: auto;
+                margin-right: auto;
+                margin-top: 20px;
+            }
+
+            h1 {
+                font-family: Trebuchet MS, Helvetica, Arial, sans-serif;
+            }
+
+            .for-site-owner {
+                font-size: smaller;
+                margin-top: 30px;
+                color: gray;
+            }
+        </style>
+    </head>
+
+    <body>
+        <img src="https://s3.amazonaws.com/pythonanywhere-error-images/logo-234x35.png" />
+
+        <div class="main">
+            <h1>Coming Soon!</h1>
+
+            <p>
+                This is going to be another great website hosted by
+                <a href="https://www.pythonanywhere.com/">PythonAnywhere</a>.
+            </p>
+
+            <p>
+                PythonAnywhere lets you host, run, and code Python in the cloud.
+                Our free plan gives you access to machines with
+                everything already set up for you. You can develop and host
+                your website or any other code directly from your browser
+                without having to install software or manage your own server.
+            </p>
+
+            <p>
+                Need more power? Upgraded plans start at $5/month.
+            </p>
+
+            <p>
+                <a href="https://www.pythonanywhere.com/">You can find out more about PythonAnywhere here.</a>
+            </p>
+        </div>
+
+        <div class="for-site-owner">
+            <h2>Developer info</h2>
+
+            <p>
+                Hi!  If this is your PythonAnywhere-hosted site, then you're
+                almost there &mdash; you just need to create
+                a web app to handle this domain.
+            </p>
+
+            <p>
+                Go to the "Web" tab inside
+                PythonAnywhere and click "Add a new web app".
+                If you already have a web app and you want to use the same code for this domain
+                (say because you've just upgraded and want the site
+                you built at <code>yourusername.pythonanywhere.com</code> to run on
+                <code>www.yourdomain.com</code>) then
+                <a href="https://help.pythonanywhere.com/pages/UsingANewDomainForExistingWebApp">this help page should explain
+                everything</a>.
+            </p>
+
+            <p>
+                If you're having problems getting it all working, drop us a line at
+                liveusercare@pythonanywhere.com, or in
+                <a href="https://www.pythonanywhere.com/forums/">the forums</a>,
+                or using the "Send
+                feedback" link on the site.  We'll
+                get back to you as fast as we can!
+            </p>
+
+        </div>
+
+    </body>
+</html>
+
+2025-03-09 16:32:47,886 - MetricsCollector - INFO - Collected and stored metrics: {
+  "timestamp": "2025-03-09T16:32:47.858363",
+  "system": {
+    "thread_count": 6,
+    "ram_usage_percent": 70.4
+  },
+  "bitcoin_price_usd": 83128,
+  "ethereum_price_usd": 2090.0
+}
+2025-03-09 16:32:48,355 - MetricsCollector - ERROR - Failed to send metrics to API: 404 - <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Coming Soon: PythonAnywhere</title>
+        <style>
+            body {
+                font-family: Helvetica, Arial, sans-serif;
+                width: 500px;
+                margin-left: auto;
+                margin-right: auto;
+                margin-top: 20px;
+            }
+
+            h1 {
+                font-family: Trebuchet MS, Helvetica, Arial, sans-serif;
+            }
+
+            .for-site-owner {
+                font-size: smaller;
+                margin-top: 30px;
+                color: gray;
+            }
+        </style>
+    </head>
+
+    <body>
+        <img src="https://s3.amazonaws.com/pythonanywhere-error-images/logo-234x35.png" />
+
+        <div class="main">
+            <h1>Coming Soon!</h1>
+
+            <p>
+                This is going to be another great website hosted by
+                <a href="https://www.pythonanywhere.com/">PythonAnywhere</a>.
+            </p>
+
+            <p>
+                PythonAnywhere lets you host, run, and code Python in the cloud.
+                Our free plan gives you access to machines with
+                everything already set up for you. You can develop and host
+                your website or any other code directly from your browser
+                without having to install software or manage your own server.
+            </p>
+
+            <p>
+                Need more power? Upgraded plans start at $5/month.
+            </p>
+
+            <p>
+                <a href="https://www.pythonanywhere.com/">You can find out more about PythonAnywhere here.</a>
+            </p>
+        </div>
+
+        <div class="for-site-owner">
+            <h2>Developer info</h2>
+
+            <p>
+                Hi!  If this is your PythonAnywhere-hosted site, then you're
+                almost there &mdash; you just need to create
+                a web app to handle this domain.
+            </p>
+
+            <p>
+                Go to the "Web" tab inside
+                PythonAnywhere and click "Add a new web app".
+                If you already have a web app and you want to use the same code for this domain
+                (say because you've just upgraded and want the site
+                you built at <code>yourusername.pythonanywhere.com</code> to run on
+                <code>www.yourdomain.com</code>) then
+                <a href="https://help.pythonanywhere.com/pages/UsingANewDomainForExistingWebApp">this help page should explain
+                everything</a>.
+            </p>
+
+            <p>
+                If you're having problems getting it all working, drop us a line at
+                liveusercare@pythonanywhere.com, or in
+                <a href="https://www.pythonanywhere.com/forums/">the forums</a>,
+                or using the "Send
+                feedback" link on the site.  We'll
+                get back to you as fast as we can!
+            </p>
+
+        </div>
+
+    </body>
+</html>
+
+2025-03-09 16:33:49,482 - MetricsCollector - INFO - Collected and stored metrics: {
+  "timestamp": "2025-03-09T16:33:49.463389",
+  "system": {
+    "thread_count": 5,
+    "ram_usage_percent": 67.4
+  },
+  "bitcoin_price_usd": 83010,
+  "ethereum_price_usd": 2087.0
+}
+2025-03-09 16:33:49,894 - MetricsCollector - ERROR - Failed to send metrics to API: 404 - <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Coming Soon: PythonAnywhere</title>
+        <style>
+            body {
+                font-family: Helvetica, Arial, sans-serif;
+                width: 500px;
+                margin-left: auto;
+                margin-right: auto;
+                margin-top: 20px;
+            }
+
+            h1 {
+                font-family: Trebuchet MS, Helvetica, Arial, sans-serif;
+            }
+
+            .for-site-owner {
+                font-size: smaller;
+                margin-top: 30px;
+                color: gray;
+            }
+        </style>
+    </head>
+
+    <body>
+        <img src="https://s3.amazonaws.com/pythonanywhere-error-images/logo-234x35.png" />
+
+        <div class="main">
+            <h1>Coming Soon!</h1>
+
+            <p>
+                This is going to be another great website hosted by
+                <a href="https://www.pythonanywhere.com/">PythonAnywhere</a>.
+            </p>
+
+            <p>
+                PythonAnywhere lets you host, run, and code Python in the cloud.
+                Our free plan gives you access to machines with
+                everything already set up for you. You can develop and host
+                your website or any other code directly from your browser
+                without having to install software or manage your own server.
+            </p>
+
+            <p>
+                Need more power? Upgraded plans start at $5/month.
+            </p>
+
+            <p>
+                <a href="https://www.pythonanywhere.com/">You can find out more about PythonAnywhere here.</a>
+            </p>
+        </div>
+
+        <div class="for-site-owner">
+            <h2>Developer info</h2>
+
+            <p>
+                Hi!  If this is your PythonAnywhere-hosted site, then you're
+                almost there &mdash; you just need to create
+                a web app to handle this domain.
+            </p>
+
+            <p>
+                Go to the "Web" tab inside
+                PythonAnywhere and click "Add a new web app".
+                If you already have a web app and you want to use the same code for this domain
+                (say because you've just upgraded and want the site
+                you built at <code>yourusername.pythonanywhere.com</code> to run on
+                <code>www.yourdomain.com</code>) then
+                <a href="https://help.pythonanywhere.com/pages/UsingANewDomainForExistingWebApp">this help page should explain
+                everything</a>.
+            </p>
+
+            <p>
+                If you're having problems getting it all working, drop us a line at
+                liveusercare@pythonanywhere.com, or in
+                <a href="https://www.pythonanywhere.com/forums/">the forums</a>,
+                or using the "Send
+                feedback" link on the site.  We'll
+                get back to you as fast as we can!
+            </p>
+
+        </div>
+
+    </body>
+</html>
+
+2025-03-09 16:34:50,594 - MetricsCollector - INFO - Collected and stored metrics: {
+  "timestamp": "2025-03-09T16:34:50.586898",
+  "system": {
+    "thread_count": 5,
+    "ram_usage_percent": 66.2
+  },
+  "bitcoin_price_usd": 82981,
+  "ethereum_price_usd": 2086.16
+}
+2025-03-09 16:34:51,025 - MetricsCollector - ERROR - Failed to send metrics to API: 404 - <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Coming Soon: PythonAnywhere</title>
+        <style>
+            body {
+                font-family: Helvetica, Arial, sans-serif;
+                width: 500px;
+                margin-left: auto;
+                margin-right: auto;
+                margin-top: 20px;
+            }
+
+            h1 {
+                font-family: Trebuchet MS, Helvetica, Arial, sans-serif;
+            }
+
+            .for-site-owner {
+                font-size: smaller;
+                margin-top: 30px;
+                color: gray;
+            }
+        </style>
+    </head>
+
+    <body>
+        <img src="https://s3.amazonaws.com/pythonanywhere-error-images/logo-234x35.png" />
+
+        <div class="main">
+            <h1>Coming Soon!</h1>
+
+            <p>
+                This is going to be another great website hosted by
+                <a href="https://www.pythonanywhere.com/">PythonAnywhere</a>.
+            </p>
+
+            <p>
+                PythonAnywhere lets you host, run, and code Python in the cloud.
+                Our free plan gives you access to machines with
+                everything already set up for you. You can develop and host
+                your website or any other code directly from your browser
+                without having to install software or manage your own server.
+            </p>
+
+            <p>
+                Need more power? Upgraded plans start at $5/month.
+            </p>
+
+            <p>
+                <a href="https://www.pythonanywhere.com/">You can find out more about PythonAnywhere here.</a>
+            </p>
+        </div>
+
+        <div class="for-site-owner">
+            <h2>Developer info</h2>
+
+            <p>
+                Hi!  If this is your PythonAnywhere-hosted site, then you're
+                almost there &mdash; you just need to create
+                a web app to handle this domain.
+            </p>
+
+            <p>
+                Go to the "Web" tab inside
+                PythonAnywhere and click "Add a new web app".
+                If you already have a web app and you want to use the same code for this domain
+                (say because you've just upgraded and want the site
+                you built at <code>yourusername.pythonanywhere.com</code> to run on
+                <code>www.yourdomain.com</code>) then
+                <a href="https://help.pythonanywhere.com/pages/UsingANewDomainForExistingWebApp">this help page should explain
+                everything</a>.
+            </p>
+
+            <p>
+                If you're having problems getting it all working, drop us a line at
+                liveusercare@pythonanywhere.com, or in
+                <a href="https://www.pythonanywhere.com/forums/">the forums</a>,
+                or using the "Send
+                feedback" link on the site.  We'll
+                get back to you as fast as we can!
+            </p>
+
+        </div>
+
+    </body>
+</html>
+
+2025-03-09 16:35:51,848 - MetricsCollector - INFO - Collected and stored metrics: {
+  "timestamp": "2025-03-09T16:35:51.831259",
+  "system": {
+    "thread_count": 5,
+    "ram_usage_percent": 66.8
+  },
+  "bitcoin_price_usd": 82932,
+  "ethereum_price_usd": 2085.16
+}
+2025-03-09 16:35:52,247 - MetricsCollector - ERROR - Failed to send metrics to API: 404 - <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Coming Soon: PythonAnywhere</title>
+        <style>
+            body {
+                font-family: Helvetica, Arial, sans-serif;
+                width: 500px;
+                margin-left: auto;
+                margin-right: auto;
+                margin-top: 20px;
+            }
+
+            h1 {
+                font-family: Trebuchet MS, Helvetica, Arial, sans-serif;
+            }
+
+            .for-site-owner {
+                font-size: smaller;
+                margin-top: 30px;
+                color: gray;
+            }
+        </style>
+    </head>
+
+    <body>
+        <img src="https://s3.amazonaws.com/pythonanywhere-error-images/logo-234x35.png" />
+
+        <div class="main">
+            <h1>Coming Soon!</h1>
+
+            <p>
+                This is going to be another great website hosted by
+                <a href="https://www.pythonanywhere.com/">PythonAnywhere</a>.
+            </p>
+
+            <p>
+                PythonAnywhere lets you host, run, and code Python in the cloud.
+                Our free plan gives you access to machines with
+                everything already set up for you. You can develop and host
+                your website or any other code directly from your browser
+                without having to install software or manage your own server.
+            </p>
+
+            <p>
+                Need more power? Upgraded plans start at $5/month.
+            </p>
+
+            <p>
+                <a href="https://www.pythonanywhere.com/">You can find out more about PythonAnywhere here.</a>
+            </p>
+        </div>
+
+        <div class="for-site-owner">
+            <h2>Developer info</h2>
+
+            <p>
+                Hi!  If this is your PythonAnywhere-hosted site, then you're
+                almost there &mdash; you just need to create
+                a web app to handle this domain.
+            </p>
+
+            <p>
+                Go to the "Web" tab inside
+                PythonAnywhere and click "Add a new web app".
+                If you already have a web app and you want to use the same code for this domain
+                (say because you've just upgraded and want the site
+                you built at <code>yourusername.pythonanywhere.com</code> to run on
+                <code>www.yourdomain.com</code>) then
+                <a href="https://help.pythonanywhere.com/pages/UsingANewDomainForExistingWebApp">this help page should explain
+                everything</a>.
+            </p>
+
+            <p>
+                If you're having problems getting it all working, drop us a line at
+                liveusercare@pythonanywhere.com, or in
+                <a href="https://www.pythonanywhere.com/forums/">the forums</a>,
+                or using the "Send
+                feedback" link on the site.  We'll
+                get back to you as fast as we can!
+            </p>
+
+        </div>
+
+    </body>
+</html>
+
+2025-03-09 16:36:52,696 - MetricsCollector - INFO - Collected and stored metrics: {
+  "timestamp": "2025-03-09T16:36:52.693782",
+  "system": {
+    "thread_count": 5,
+    "ram_usage_percent": 66.5
+  },
+  "bitcoin_price_usd": 82932,
+  "ethereum_price_usd": 2085.16
+}
+2025-03-09 16:36:53,190 - MetricsCollector - ERROR - Failed to send metrics to API: 404 - <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Coming Soon: PythonAnywhere</title>
+        <style>
+            body {
+                font-family: Helvetica, Arial, sans-serif;
+                width: 500px;
+                margin-left: auto;
+                margin-right: auto;
+                margin-top: 20px;
+            }
+
+            h1 {
+                font-family: Trebuchet MS, Helvetica, Arial, sans-serif;
+            }
+
+            .for-site-owner {
+                font-size: smaller;
+                margin-top: 30px;
+                color: gray;
+            }
+        </style>
+    </head>
+
+    <body>
+        <img src="https://s3.amazonaws.com/pythonanywhere-error-images/logo-234x35.png" />
+
+        <div class="main">
+            <h1>Coming Soon!</h1>
+
+            <p>
+                This is going to be another great website hosted by
+                <a href="https://www.pythonanywhere.com/">PythonAnywhere</a>.
+            </p>
+
+            <p>
+                PythonAnywhere lets you host, run, and code Python in the cloud.
+                Our free plan gives you access to machines with
+                everything already set up for you. You can develop and host
+                your website or any other code directly from your browser
+                without having to install software or manage your own server.
+            </p>
+
+            <p>
+                Need more power? Upgraded plans start at $5/month.
+            </p>
+
+            <p>
+                <a href="https://www.pythonanywhere.com/">You can find out more about PythonAnywhere here.</a>
+            </p>
+        </div>
+
+        <div class="for-site-owner">
+            <h2>Developer info</h2>
+
+            <p>
+                Hi!  If this is your PythonAnywhere-hosted site, then you're
+                almost there &mdash; you just need to create
+                a web app to handle this domain.
+            </p>
+
+            <p>
+                Go to the "Web" tab inside
+                PythonAnywhere and click "Add a new web app".
+                If you already have a web app and you want to use the same code for this domain
+                (say because you've just upgraded and want the site
+                you built at <code>yourusername.pythonanywhere.com</code> to run on
+                <code>www.yourdomain.com</code>) then
+                <a href="https://help.pythonanywhere.com/pages/UsingANewDomainForExistingWebApp">this help page should explain
+                everything</a>.
+            </p>
+
+            <p>
+                If you're having problems getting it all working, drop us a line at
+                liveusercare@pythonanywhere.com, or in
+                <a href="https://www.pythonanywhere.com/forums/">the forums</a>,
+                or using the "Send
+                feedback" link on the site.  We'll
+                get back to you as fast as we can!
+            </p>
+
+        </div>
+
+    </body>
+</html>
+
+2025-03-09 16:37:53,842 - MetricsCollector - INFO - Collected and stored metrics: {
+  "timestamp": "2025-03-09T16:37:53.827323",
+  "system": {
+    "thread_count": 5,
+    "ram_usage_percent": 67.6
+  },
+  "bitcoin_price_usd": 82848,
+  "ethereum_price_usd": 2083.79
+}
+2025-03-09 16:37:54,284 - MetricsCollector - ERROR - Failed to send metrics to API: 404 - <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Coming Soon: PythonAnywhere</title>
+        <style>
+            body {
+                font-family: Helvetica, Arial, sans-serif;
+                width: 500px;
+                margin-left: auto;
+                margin-right: auto;
+                margin-top: 20px;
+            }
+
+            h1 {
+                font-family: Trebuchet MS, Helvetica, Arial, sans-serif;
+            }
+
+            .for-site-owner {
+                font-size: smaller;
+                margin-top: 30px;
+                color: gray;
+            }
+        </style>
+    </head>
+
+    <body>
+        <img src="https://s3.amazonaws.com/pythonanywhere-error-images/logo-234x35.png" />
+
+        <div class="main">
+            <h1>Coming Soon!</h1>
+
+            <p>
+                This is going to be another great website hosted by
+                <a href="https://www.pythonanywhere.com/">PythonAnywhere</a>.
+            </p>
+
+            <p>
+                PythonAnywhere lets you host, run, and code Python in the cloud.
+                Our free plan gives you access to machines with
+                everything already set up for you. You can develop and host
+                your website or any other code directly from your browser
+                without having to install software or manage your own server.
+            </p>
+
+            <p>
+                Need more power? Upgraded plans start at $5/month.
+            </p>
+
+            <p>
+                <a href="https://www.pythonanywhere.com/">You can find out more about PythonAnywhere here.</a>
+            </p>
+        </div>
+
+        <div class="for-site-owner">
+            <h2>Developer info</h2>
+
+            <p>
+                Hi!  If this is your PythonAnywhere-hosted site, then you're
+                almost there &mdash; you just need to create
+                a web app to handle this domain.
+            </p>
+
+            <p>
+                Go to the "Web" tab inside
+                PythonAnywhere and click "Add a new web app".
+                If you already have a web app and you want to use the same code for this domain
+                (say because you've just upgraded and want the site
+                you built at <code>yourusername.pythonanywhere.com</code> to run on
+                <code>www.yourdomain.com</code>) then
+                <a href="https://help.pythonanywhere.com/pages/UsingANewDomainForExistingWebApp">this help page should explain
+                everything</a>.
+            </p>
+
+            <p>
+                If you're having problems getting it all working, drop us a line at
+                liveusercare@pythonanywhere.com, or in
+                <a href="https://www.pythonanywhere.com/forums/">the forums</a>,
+                or using the "Send
+                feedback" link on the site.  We'll
+                get back to you as fast as we can!
+            </p>
+
+        </div>
+
+    </body>
+</html>
+
+2025-03-09 16:38:54,722 - MetricsCollector - INFO - Collected and stored metrics: {
+  "timestamp": "2025-03-09T16:38:54.718854",
+  "system": {
+    "thread_count": 5,
+    "ram_usage_percent": 68.0
+  },
+  "bitcoin_price_usd": 82848,
+  "ethereum_price_usd": 2083.79
+}
+2025-03-09 16:38:55,203 - MetricsCollector - ERROR - Failed to send metrics to API: 404 - <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Coming Soon: PythonAnywhere</title>
+        <style>
+            body {
+                font-family: Helvetica, Arial, sans-serif;
+                width: 500px;
+                margin-left: auto;
+                margin-right: auto;
+                margin-top: 20px;
+            }
+
+            h1 {
+                font-family: Trebuchet MS, Helvetica, Arial, sans-serif;
+            }
+
+            .for-site-owner {
+                font-size: smaller;
+                margin-top: 30px;
+                color: gray;
+            }
+        </style>
+    </head>
+
+    <body>
+        <img src="https://s3.amazonaws.com/pythonanywhere-error-images/logo-234x35.png" />
+
+        <div class="main">
+            <h1>Coming Soon!</h1>
+
+            <p>
+                This is going to be another great website hosted by
+                <a href="https://www.pythonanywhere.com/">PythonAnywhere</a>.
+            </p>
+
+            <p>
+                PythonAnywhere lets you host, run, and code Python in the cloud.
+                Our free plan gives you access to machines with
+                everything already set up for you. You can develop and host
+                your website or any other code directly from your browser
+                without having to install software or manage your own server.
+            </p>
+
+            <p>
+                Need more power? Upgraded plans start at $5/month.
+            </p>
+
+            <p>
+                <a href="https://www.pythonanywhere.com/">You can find out more about PythonAnywhere here.</a>
+            </p>
+        </div>
+
+        <div class="for-site-owner">
+            <h2>Developer info</h2>
+
+            <p>
+                Hi!  If this is your PythonAnywhere-hosted site, then you're
+                almost there &mdash; you just need to create
+                a web app to handle this domain.
+            </p>
+
+            <p>
+                Go to the "Web" tab inside
+                PythonAnywhere and click "Add a new web app".
+                If you already have a web app and you want to use the same code for this domain
+                (say because you've just upgraded and want the site
+                you built at <code>yourusername.pythonanywhere.com</code> to run on
+                <code>www.yourdomain.com</code>) then
+                <a href="https://help.pythonanywhere.com/pages/UsingANewDomainForExistingWebApp">this help page should explain
+                everything</a>.
+            </p>
+
+            <p>
+                If you're having problems getting it all working, drop us a line at
+                liveusercare@pythonanywhere.com, or in
+                <a href="https://www.pythonanywhere.com/forums/">the forums</a>,
+                or using the "Send
+                feedback" link on the site.  We'll
+                get back to you as fast as we can!
+            </p>
+
+        </div>
+
+    </body>
+</html>
+
+2025-03-09 16:39:55,738 - MetricsCollector - INFO - Collected and stored metrics: {
+  "timestamp": "2025-03-09T16:39:55.721653",
+  "system": {
+    "thread_count": 5,
+    "ram_usage_percent": 68.8
+  },
+  "bitcoin_price_usd": 82668,
+  "ethereum_price_usd": 2075.93
+}
+2025-03-09 16:39:56,157 - MetricsCollector - ERROR - Failed to send metrics to API: 404 - <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Coming Soon: PythonAnywhere</title>
+        <style>
+            body {
+                font-family: Helvetica, Arial, sans-serif;
+                width: 500px;
+                margin-left: auto;
+                margin-right: auto;
+                margin-top: 20px;
+            }
+
+            h1 {
+                font-family: Trebuchet MS, Helvetica, Arial, sans-serif;
+            }
+
+            .for-site-owner {
+                font-size: smaller;
+                margin-top: 30px;
+                color: gray;
+            }
+        </style>
+    </head>
+
+    <body>
+        <img src="https://s3.amazonaws.com/pythonanywhere-error-images/logo-234x35.png" />
+
+        <div class="main">
+            <h1>Coming Soon!</h1>
+
+            <p>
+                This is going to be another great website hosted by
+                <a href="https://www.pythonanywhere.com/">PythonAnywhere</a>.
+            </p>
+
+            <p>
+                PythonAnywhere lets you host, run, and code Python in the cloud.
+                Our free plan gives you access to machines with
+                everything already set up for you. You can develop and host
+                your website or any other code directly from your browser
+                without having to install software or manage your own server.
+            </p>
+
+            <p>
+                Need more power? Upgraded plans start at $5/month.
+            </p>
+
+            <p>
+                <a href="https://www.pythonanywhere.com/">You can find out more about PythonAnywhere here.</a>
+            </p>
+        </div>
+
+        <div class="for-site-owner">
+            <h2>Developer info</h2>
+
+            <p>
+                Hi!  If this is your PythonAnywhere-hosted site, then you're
+                almost there &mdash; you just need to create
+                a web app to handle this domain.
+            </p>
+
+            <p>
+                Go to the "Web" tab inside
+                PythonAnywhere and click "Add a new web app".
+                If you already have a web app and you want to use the same code for this domain
+                (say because you've just upgraded and want the site
+                you built at <code>yourusername.pythonanywhere.com</code> to run on
+                <code>www.yourdomain.com</code>) then
+                <a href="https://help.pythonanywhere.com/pages/UsingANewDomainForExistingWebApp">this help page should explain
+                everything</a>.
+            </p>
+
+            <p>
+                If you're having problems getting it all working, drop us a line at
+                liveusercare@pythonanywhere.com, or in
+                <a href="https://www.pythonanywhere.com/forums/">the forums</a>,
+                or using the "Send
+                feedback" link on the site.  We'll
+                get back to you as fast as we can!
+            </p>
+
+        </div>
+
+    </body>
+</html>
+
+2025-03-09 16:40:56,627 - MetricsCollector - INFO - Collected and stored metrics: {
+  "timestamp": "2025-03-09T16:40:56.612556",
+  "system": {
+    "thread_count": 5,
+    "ram_usage_percent": 69.5
+  },
+  "bitcoin_price_usd": 82715,
+  "ethereum_price_usd": 2076.29
+}
+2025-03-09 16:40:57,046 - MetricsCollector - ERROR - Failed to send metrics to API: 404 - <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Coming Soon: PythonAnywhere</title>
+        <style>
+            body {
+                font-family: Helvetica, Arial, sans-serif;
+                width: 500px;
+                margin-left: auto;
+                margin-right: auto;
+                margin-top: 20px;
+            }
+
+            h1 {
+                font-family: Trebuchet MS, Helvetica, Arial, sans-serif;
+            }
+
+            .for-site-owner {
+                font-size: smaller;
+                margin-top: 30px;
+                color: gray;
+            }
+        </style>
+    </head>
+
+    <body>
+        <img src="https://s3.amazonaws.com/pythonanywhere-error-images/logo-234x35.png" />
+
+        <div class="main">
+            <h1>Coming Soon!</h1>
+
+            <p>
+                This is going to be another great website hosted by
+                <a href="https://www.pythonanywhere.com/">PythonAnywhere</a>.
+            </p>
+
+            <p>
+                PythonAnywhere lets you host, run, and code Python in the cloud.
+                Our free plan gives you access to machines with
+                everything already set up for you. You can develop and host
+                your website or any other code directly from your browser
+                without having to install software or manage your own server.
+            </p>
+
+            <p>
+                Need more power? Upgraded plans start at $5/month.
+            </p>
+
+            <p>
+                <a href="https://www.pythonanywhere.com/">You can find out more about PythonAnywhere here.</a>
+            </p>
+        </div>
+
+        <div class="for-site-owner">
+            <h2>Developer info</h2>
+
+            <p>
+                Hi!  If this is your PythonAnywhere-hosted site, then you're
+                almost there &mdash; you just need to create
+                a web app to handle this domain.
+            </p>
+
+            <p>
+                Go to the "Web" tab inside
+                PythonAnywhere and click "Add a new web app".
+                If you already have a web app and you want to use the same code for this domain
+                (say because you've just upgraded and want the site
+                you built at <code>yourusername.pythonanywhere.com</code> to run on
+                <code>www.yourdomain.com</code>) then
+                <a href="https://help.pythonanywhere.com/pages/UsingANewDomainForExistingWebApp">this help page should explain
+                everything</a>.
+            </p>
+
+            <p>
+                If you're having problems getting it all working, drop us a line at
+                liveusercare@pythonanywhere.com, or in
+                <a href="https://www.pythonanywhere.com/forums/">the forums</a>,
+                or using the "Send
+                feedback" link on the site.  We'll
+                get back to you as fast as we can!
+            </p>
+
+        </div>
+
+    </body>
+</html>
+
+2025-03-09 16:41:57,914 - MetricsCollector - INFO - Collected and stored metrics: {
+  "timestamp": "2025-03-09T16:41:57.898295",
+  "system": {
+    "thread_count": 5,
+    "ram_usage_percent": 69.2
+  },
+  "bitcoin_price_usd": 82655,
+  "ethereum_price_usd": 2074.77
+}
+2025-03-09 16:41:58,356 - MetricsCollector - ERROR - Failed to send metrics to API: 404 - <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Coming Soon: PythonAnywhere</title>
+        <style>
+            body {
+                font-family: Helvetica, Arial, sans-serif;
+                width: 500px;
+                margin-left: auto;
+                margin-right: auto;
+                margin-top: 20px;
+            }
+
+            h1 {
+                font-family: Trebuchet MS, Helvetica, Arial, sans-serif;
+            }
+
+            .for-site-owner {
+                font-size: smaller;
+                margin-top: 30px;
+                color: gray;
+            }
+        </style>
+    </head>
+
+    <body>
+        <img src="https://s3.amazonaws.com/pythonanywhere-error-images/logo-234x35.png" />
+
+        <div class="main">
+            <h1>Coming Soon!</h1>
+
+            <p>
+                This is going to be another great website hosted by
+                <a href="https://www.pythonanywhere.com/">PythonAnywhere</a>.
+            </p>
+
+            <p>
+                PythonAnywhere lets you host, run, and code Python in the cloud.
+                Our free plan gives you access to machines with
+                everything already set up for you. You can develop and host
+                your website or any other code directly from your browser
+                without having to install software or manage your own server.
+            </p>
+
+            <p>
+                Need more power? Upgraded plans start at $5/month.
+            </p>
+
+            <p>
+                <a href="https://www.pythonanywhere.com/">You can find out more about PythonAnywhere here.</a>
+            </p>
+        </div>
+
+        <div class="for-site-owner">
+            <h2>Developer info</h2>
+
+            <p>
+                Hi!  If this is your PythonAnywhere-hosted site, then you're
+                almost there &mdash; you just need to create
+                a web app to handle this domain.
+            </p>
+
+            <p>
+                Go to the "Web" tab inside
+                PythonAnywhere and click "Add a new web app".
+                If you already have a web app and you want to use the same code for this domain
+                (say because you've just upgraded and want the site
+                you built at <code>yourusername.pythonanywhere.com</code> to run on
+                <code>www.yourdomain.com</code>) then
+                <a href="https://help.pythonanywhere.com/pages/UsingANewDomainForExistingWebApp">this help page should explain
+                everything</a>.
+            </p>
+
+            <p>
+                If you're having problems getting it all working, drop us a line at
+                liveusercare@pythonanywhere.com, or in
+                <a href="https://www.pythonanywhere.com/forums/">the forums</a>,
+                or using the "Send
+                feedback" link on the site.  We'll
+                get back to you as fast as we can!
+            </p>
+
+        </div>
+
+    </body>
+</html>
+
+2025-03-09 16:42:59,076 - MetricsCollector - INFO - Collected and stored metrics: {
+  "timestamp": "2025-03-09T16:42:59.060973",
+  "system": {
+    "thread_count": 5,
+    "ram_usage_percent": 67.3
+  },
+  "bitcoin_price_usd": 82496,
+  "ethereum_price_usd": 2071.2
+}
+2025-03-09 16:42:59,507 - MetricsCollector - ERROR - Failed to send metrics to API: 404 - <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Coming Soon: PythonAnywhere</title>
+        <style>
+            body {
+                font-family: Helvetica, Arial, sans-serif;
+                width: 500px;
+                margin-left: auto;
+                margin-right: auto;
+                margin-top: 20px;
+            }
+
+            h1 {
+                font-family: Trebuchet MS, Helvetica, Arial, sans-serif;
+            }
+
+            .for-site-owner {
+                font-size: smaller;
+                margin-top: 30px;
+                color: gray;
+            }
+        </style>
+    </head>
+
+    <body>
+        <img src="https://s3.amazonaws.com/pythonanywhere-error-images/logo-234x35.png" />
+
+        <div class="main">
+            <h1>Coming Soon!</h1>
+
+            <p>
+                This is going to be another great website hosted by
+                <a href="https://www.pythonanywhere.com/">PythonAnywhere</a>.
+            </p>
+
+            <p>
+                PythonAnywhere lets you host, run, and code Python in the cloud.
+                Our free plan gives you access to machines with
+                everything already set up for you. You can develop and host
+                your website or any other code directly from your browser
+                without having to install software or manage your own server.
+            </p>
+
+            <p>
+                Need more power? Upgraded plans start at $5/month.
+            </p>
+
+            <p>
+                <a href="https://www.pythonanywhere.com/">You can find out more about PythonAnywhere here.</a>
+            </p>
+        </div>
+
+        <div class="for-site-owner">
+            <h2>Developer info</h2>
+
+            <p>
+                Hi!  If this is your PythonAnywhere-hosted site, then you're
+                almost there &mdash; you just need to create
+                a web app to handle this domain.
+            </p>
+
+            <p>
+                Go to the "Web" tab inside
+                PythonAnywhere and click "Add a new web app".
+                If you already have a web app and you want to use the same code for this domain
+                (say because you've just upgraded and want the site
+                you built at <code>yourusername.pythonanywhere.com</code> to run on
+                <code>www.yourdomain.com</code>) then
+                <a href="https://help.pythonanywhere.com/pages/UsingANewDomainForExistingWebApp">this help page should explain
+                everything</a>.
+            </p>
+
+            <p>
+                If you're having problems getting it all working, drop us a line at
+                liveusercare@pythonanywhere.com, or in
+                <a href="https://www.pythonanywhere.com/forums/">the forums</a>,
+                or using the "Send
+                feedback" link on the site.  We'll
+                get back to you as fast as we can!
+            </p>
+
+        </div>
+
+    </body>
+</html>
+
+2025-03-09 16:44:00,109 - MetricsCollector - INFO - Collected and stored metrics: {
+  "timestamp": "2025-03-09T16:44:00.093616",
+  "system": {
+    "thread_count": 5,
+    "ram_usage_percent": 70.8
+  },
+  "bitcoin_price_usd": 82606,
+  "ethereum_price_usd": 2073.78
+}
+2025-03-09 16:44:00,558 - MetricsCollector - ERROR - Failed to send metrics to API: 404 - <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Coming Soon: PythonAnywhere</title>
+        <style>
+            body {
+                font-family: Helvetica, Arial, sans-serif;
+                width: 500px;
+                margin-left: auto;
+                margin-right: auto;
+                margin-top: 20px;
+            }
+
+            h1 {
+                font-family: Trebuchet MS, Helvetica, Arial, sans-serif;
+            }
+
+            .for-site-owner {
+                font-size: smaller;
+                margin-top: 30px;
+                color: gray;
+            }
+        </style>
+    </head>
+
+    <body>
+        <img src="https://s3.amazonaws.com/pythonanywhere-error-images/logo-234x35.png" />
+
+        <div class="main">
+            <h1>Coming Soon!</h1>
+
+            <p>
+                This is going to be another great website hosted by
+                <a href="https://www.pythonanywhere.com/">PythonAnywhere</a>.
+            </p>
+
+            <p>
+                PythonAnywhere lets you host, run, and code Python in the cloud.
+                Our free plan gives you access to machines with
+                everything already set up for you. You can develop and host
+                your website or any other code directly from your browser
+                without having to install software or manage your own server.
+            </p>
+
+            <p>
+                Need more power? Upgraded plans start at $5/month.
+            </p>
+
+            <p>
+                <a href="https://www.pythonanywhere.com/">You can find out more about PythonAnywhere here.</a>
+            </p>
+        </div>
+
+        <div class="for-site-owner">
+            <h2>Developer info</h2>
+
+            <p>
+                Hi!  If this is your PythonAnywhere-hosted site, then you're
+                almost there &mdash; you just need to create
+                a web app to handle this domain.
+            </p>
+
+            <p>
+                Go to the "Web" tab inside
+                PythonAnywhere and click "Add a new web app".
+                If you already have a web app and you want to use the same code for this domain
+                (say because you've just upgraded and want the site
+                you built at <code>yourusername.pythonanywhere.com</code> to run on
+                <code>www.yourdomain.com</code>) then
+                <a href="https://help.pythonanywhere.com/pages/UsingANewDomainForExistingWebApp">this help page should explain
+                everything</a>.
+            </p>
+
+            <p>
+                If you're having problems getting it all working, drop us a line at
+                liveusercare@pythonanywhere.com, or in
+                <a href="https://www.pythonanywhere.com/forums/">the forums</a>,
+                or using the "Send
+                feedback" link on the site.  We'll
+                get back to you as fast as we can!
+            </p>
+
+        </div>
+
+    </body>
+</html>
+
+2025-03-09 16:45:01,961 - MetricsCollector - INFO - Collected and stored metrics: {
+  "timestamp": "2025-03-09T16:45:01.947592",
+  "system": {
+    "thread_count": 5,
+    "ram_usage_percent": 69.1
+  },
+  "bitcoin_price_usd": 82669,
+  "ethereum_price_usd": 2075.56
+}
+2025-03-09 16:45:02,388 - MetricsCollector - ERROR - Failed to send metrics to API: 404 - <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Coming Soon: PythonAnywhere</title>
+        <style>
+            body {
+                font-family: Helvetica, Arial, sans-serif;
+                width: 500px;
+                margin-left: auto;
+                margin-right: auto;
+                margin-top: 20px;
+            }
+
+            h1 {
+                font-family: Trebuchet MS, Helvetica, Arial, sans-serif;
+            }
+
+            .for-site-owner {
+                font-size: smaller;
+                margin-top: 30px;
+                color: gray;
+            }
+        </style>
+    </head>
+
+    <body>
+        <img src="https://s3.amazonaws.com/pythonanywhere-error-images/logo-234x35.png" />
+
+        <div class="main">
+            <h1>Coming Soon!</h1>
+
+            <p>
+                This is going to be another great website hosted by
+                <a href="https://www.pythonanywhere.com/">PythonAnywhere</a>.
+            </p>
+
+            <p>
+                PythonAnywhere lets you host, run, and code Python in the cloud.
+                Our free plan gives you access to machines with
+                everything already set up for you. You can develop and host
+                your website or any other code directly from your browser
+                without having to install software or manage your own server.
+            </p>
+
+            <p>
+                Need more power? Upgraded plans start at $5/month.
+            </p>
+
+            <p>
+                <a href="https://www.pythonanywhere.com/">You can find out more about PythonAnywhere here.</a>
+            </p>
+        </div>
+
+        <div class="for-site-owner">
+            <h2>Developer info</h2>
+
+            <p>
+                Hi!  If this is your PythonAnywhere-hosted site, then you're
+                almost there &mdash; you just need to create
+                a web app to handle this domain.
+            </p>
+
+            <p>
+                Go to the "Web" tab inside
+                PythonAnywhere and click "Add a new web app".
+                If you already have a web app and you want to use the same code for this domain
+                (say because you've just upgraded and want the site
+                you built at <code>yourusername.pythonanywhere.com</code> to run on
+                <code>www.yourdomain.com</code>) then
+                <a href="https://help.pythonanywhere.com/pages/UsingANewDomainForExistingWebApp">this help page should explain
+                everything</a>.
+            </p>
+
+            <p>
+                If you're having problems getting it all working, drop us a line at
+                liveusercare@pythonanywhere.com, or in
+                <a href="https://www.pythonanywhere.com/forums/">the forums</a>,
+                or using the "Send
+                feedback" link on the site.  We'll
+                get back to you as fast as we can!
+            </p>
+
+        </div>
+
+    </body>
+</html>
+
+2025-03-09 16:46:03,400 - MetricsCollector - INFO - Collected and stored metrics: {
+  "timestamp": "2025-03-09T16:46:03.294701",
+  "system": {
+    "thread_count": 5,
+    "ram_usage_percent": 70.3
+  },
+  "bitcoin_price_usd": 82926,
+  "ethereum_price_usd": 2081.51
+}
+2025-03-09 16:46:16,918 - MetricsCollector - ERROR - Failed to send metrics to API: 404 - <!doctype html>
+<html lang=en>
+<title>404 Not Found</title>
+<h1>Not Found</h1>
+<p>The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.</p>
+
+2025-03-09 16:47:17,572 - MetricsCollector - INFO - Collected and stored metrics: {
+  "timestamp": "2025-03-09T16:47:17.557503",
+  "system": {
+    "thread_count": 5,
+    "ram_usage_percent": 70.9
+  },
+  "bitcoin_price_usd": 82842,
+  "ethereum_price_usd": 2080.48
+}
+2025-03-09 16:47:18,019 - MetricsCollector - ERROR - Failed to send metrics to API: 404 - <!doctype html>
+<html lang=en>
+<title>404 Not Found</title>
+<h1>Not Found</h1>
+<p>The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.</p>
+
+2025-03-09 16:48:18,718 - MetricsCollector - INFO - Collected and stored metrics: {
+  "timestamp": "2025-03-09T16:48:18.702551",
+  "system": {
+    "thread_count": 4,
+    "ram_usage_percent": 70.9
+  },
+  "bitcoin_price_usd": 82731,
+  "ethereum_price_usd": 2077.76
+}
+2025-03-09 16:48:19,179 - MetricsCollector - ERROR - Failed to send metrics to API: 404 - <!doctype html>
+<html lang=en>
+<title>404 Not Found</title>
+<h1>Not Found</h1>
+<p>The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.</p>
+
+2025-03-09 16:49:20,048 - MetricsCollector - INFO - Collected and stored metrics: {
+  "timestamp": "2025-03-09T16:49:19.927334",
+  "system": {
+    "thread_count": 4,
+    "ram_usage_percent": 70.9
+  },
+  "bitcoin_price_usd": 82739,
+  "ethereum_price_usd": 2077.39
+}
+2025-03-09 16:49:20,901 - MetricsCollector - ERROR - Failed to send metrics to API: 500 - 
+<html>
+    <head>
+        <title>Something went wrong :-(</title>
+        <link href="https://www.pythonanywhere.com/static/bootstrap/css/bootstrap.css" rel="stylesheet" media="screen" type="text/css">
+        <style>
+            body {
+                font-family: Helvetica, Arial, sans-serif;
+                width: 500px;
+                margin-left: auto;
+                margin-right: auto;
+                margin-top: 20px;
+            }
+
+            iframe {
+                width: 100%;
+                height: 100%;
+                border: none;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div class="main">
+        <div class="banner">
+            <h1>Something went wrong :-(</h1>
+
+            <p>
+            Something went wrong while trying to load this website;
+            please try again later.
+            </p>
+
+            <p>
+            If it is your site, you should check your logs
+            to determine what the problem is.
+            </p>
+
+        </div>
+        </div>
+        <iframe name="error-insert" src="//www.pythonanywhere.com/error_insert/jameskelly.pythonanywhere.com">
+        </iframe>
+    </body>
+</html>
+
+2025-03-09 16:50:21,579 - MetricsCollector - INFO - Collected and stored metrics: {
+  "timestamp": "2025-03-09T16:50:21.473544",
+  "system": {
+    "thread_count": 4,
+    "ram_usage_percent": 70.9
+  },
+  "bitcoin_price_usd": 82648,
+  "ethereum_price_usd": 2073.98
+}
+2025-03-09 16:50:22,021 - MetricsCollector - ERROR - Failed to send metrics to API: 500 - 
+<html>
+    <head>
+        <title>Something went wrong :-(</title>
+        <link href="https://www.pythonanywhere.com/static/bootstrap/css/bootstrap.css" rel="stylesheet" media="screen" type="text/css">
+        <style>
+            body {
+                font-family: Helvetica, Arial, sans-serif;
+                width: 500px;
+                margin-left: auto;
+                margin-right: auto;
+                margin-top: 20px;
+            }
+
+            iframe {
+                width: 100%;
+                height: 100%;
+                border: none;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div class="main">
+        <div class="banner">
+            <h1>Something went wrong :-(</h1>
+
+            <p>
+            Something went wrong while trying to load this website;
+            please try again later.
+            </p>
+
+            <p>
+            If it is your site, you should check your logs
+            to determine what the problem is.
+            </p>
+
+        </div>
+        </div>
+        <iframe name="error-insert" src="//www.pythonanywhere.com/error_insert/jameskelly.pythonanywhere.com">
+        </iframe>
+    </body>
+</html>
+
+2025-03-09 16:51:22,772 - MetricsCollector - INFO - Collected and stored metrics: {
+  "timestamp": "2025-03-09T16:51:22.740743",
+  "system": {
+    "thread_count": 4,
+    "ram_usage_percent": 71.7
+  },
+  "bitcoin_price_usd": 82625,
+  "ethereum_price_usd": 2073.5
+}
+2025-03-09 16:51:23,302 - MetricsCollector - ERROR - Failed to send metrics to API: 500 - 
+<html>
+    <head>
+        <title>Something went wrong :-(</title>
+        <link href="https://www.pythonanywhere.com/static/bootstrap/css/bootstrap.css" rel="stylesheet" media="screen" type="text/css">
+        <style>
+            body {
+                font-family: Helvetica, Arial, sans-serif;
+                width: 500px;
+                margin-left: auto;
+                margin-right: auto;
+                margin-top: 20px;
+            }
+
+            iframe {
+                width: 100%;
+                height: 100%;
+                border: none;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div class="main">
+        <div class="banner">
+            <h1>Something went wrong :-(</h1>
+
+            <p>
+            Something went wrong while trying to load this website;
+            please try again later.
+            </p>
+
+            <p>
+            If it is your site, you should check your logs
+            to determine what the problem is.
+            </p>
+
+        </div>
+        </div>
+        <iframe name="error-insert" src="//www.pythonanywhere.com/error_insert/jameskelly.pythonanywhere.com">
+        </iframe>
+    </body>
+</html>
+
+2025-03-09 16:52:23,738 - MetricsCollector - INFO - Collected and stored metrics: {
+  "timestamp": "2025-03-09T16:52:23.723957",
+  "system": {
+    "thread_count": 4,
+    "ram_usage_percent": 70.9
+  },
+  "bitcoin_price_usd": 82567,
+  "ethereum_price_usd": 2071.97
+}
+2025-03-09 16:52:24,322 - MetricsCollector - ERROR - Failed to send metrics to API: 500 - 
+<html>
+    <head>
+        <title>Something went wrong :-(</title>
+        <link href="https://www.pythonanywhere.com/static/bootstrap/css/bootstrap.css" rel="stylesheet" media="screen" type="text/css">
+        <style>
+            body {
+                font-family: Helvetica, Arial, sans-serif;
+                width: 500px;
+                margin-left: auto;
+                margin-right: auto;
+                margin-top: 20px;
+            }
+
+            iframe {
+                width: 100%;
+                height: 100%;
+                border: none;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div class="main">
+        <div class="banner">
+            <h1>Something went wrong :-(</h1>
+
+            <p>
+            Something went wrong while trying to load this website;
+            please try again later.
+            </p>
+
+            <p>
+            If it is your site, you should check your logs
+            to determine what the problem is.
+            </p>
+
+        </div>
+        </div>
+        <iframe name="error-insert" src="//www.pythonanywhere.com/error_insert/jameskelly.pythonanywhere.com">
+        </iframe>
+    </body>
+</html>
+
+2025-03-09 16:53:25,064 - MetricsCollector - INFO - Collected and stored metrics: {
+  "timestamp": "2025-03-09T16:53:24.880851",
+  "system": {
+    "thread_count": 4,
+    "ram_usage_percent": 70.7
+  },
+  "bitcoin_price_usd": 82487,
+  "ethereum_price_usd": 2067.98
+}
+2025-03-09 16:53:26,922 - MetricsCollector - ERROR - Failed to send metrics to API: 500 - 
+<html>
+    <head>
+        <title>Something went wrong :-(</title>
+        <link href="https://www.pythonanywhere.com/static/bootstrap/css/bootstrap.css" rel="stylesheet" media="screen" type="text/css">
+        <style>
+            body {
+                font-family: Helvetica, Arial, sans-serif;
+                width: 500px;
+                margin-left: auto;
+                margin-right: auto;
+                margin-top: 20px;
+            }
+
+            iframe {
+                width: 100%;
+                height: 100%;
+                border: none;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div class="main">
+        <div class="banner">
+            <h1>Something went wrong :-(</h1>
+
+            <p>
+            Something went wrong while trying to load this website;
+            please try again later.
+            </p>
+
+            <p>
+            If it is your site, you should check your logs
+            to determine what the problem is.
+            </p>
+
+        </div>
+        </div>
+        <iframe name="error-insert" src="//www.pythonanywhere.com/error_insert/jameskelly.pythonanywhere.com">
+        </iframe>
+    </body>
+</html>
+
+2025-03-09 16:54:27,407 - MetricsCollector - INFO - Collected and stored metrics: {
+  "timestamp": "2025-03-09T16:54:27.388571",
+  "system": {
+    "thread_count": 4,
+    "ram_usage_percent": 71.5
+  },
+  "bitcoin_price_usd": 82459,
+  "ethereum_price_usd": 2064.3
+}
+2025-03-09 16:54:28,012 - MetricsCollector - ERROR - Failed to send metrics to API: 500 - 
+<html>
+    <head>
+        <title>Something went wrong :-(</title>
+        <link href="https://www.pythonanywhere.com/static/bootstrap/css/bootstrap.css" rel="stylesheet" media="screen" type="text/css">
+        <style>
+            body {
+                font-family: Helvetica, Arial, sans-serif;
+                width: 500px;
+                margin-left: auto;
+                margin-right: auto;
+                margin-top: 20px;
+            }
+
+            iframe {
+                width: 100%;
+                height: 100%;
+                border: none;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div class="main">
+        <div class="banner">
+            <h1>Something went wrong :-(</h1>
+
+            <p>
+            Something went wrong while trying to load this website;
+            please try again later.
+            </p>
+
+            <p>
+            If it is your site, you should check your logs
+            to determine what the problem is.
+            </p>
+
+        </div>
+        </div>
+        <iframe name="error-insert" src="//www.pythonanywhere.com/error_insert/jameskelly.pythonanywhere.com">
+        </iframe>
+    </body>
+</html>
+
+2025-03-09 16:55:28,678 - MetricsCollector - INFO - Collected and stored metrics: {
+  "timestamp": "2025-03-09T16:55:28.659688",
+  "system": {
+    "thread_count": 4,
+    "ram_usage_percent": 73.3
+  },
+  "bitcoin_price_usd": 82363,
+  "ethereum_price_usd": 2061.24
+}
+2025-03-09 16:55:29,384 - MetricsCollector - ERROR - Failed to send metrics to API: 500 - 
+<html>
+    <head>
+        <title>Something went wrong :-(</title>
+        <link href="https://www.pythonanywhere.com/static/bootstrap/css/bootstrap.css" rel="stylesheet" media="screen" type="text/css">
+        <style>
+            body {
+                font-family: Helvetica, Arial, sans-serif;
+                width: 500px;
+                margin-left: auto;
+                margin-right: auto;
+                margin-top: 20px;
+            }
+
+            iframe {
+                width: 100%;
+                height: 100%;
+                border: none;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div class="main">
+        <div class="banner">
+            <h1>Something went wrong :-(</h1>
+
+            <p>
+            Something went wrong while trying to load this website;
+            please try again later.
+            </p>
+
+            <p>
+            If it is your site, you should check your logs
+            to determine what the problem is.
+            </p>
+
+        </div>
+        </div>
+        <iframe name="error-insert" src="//www.pythonanywhere.com/error_insert/jameskelly.pythonanywhere.com">
+        </iframe>
+    </body>
+</html>
+
+2025-03-09 16:56:30,196 - MetricsCollector - INFO - Collected and stored metrics: {
+  "timestamp": "2025-03-09T16:56:30.176790",
+  "system": {
+    "thread_count": 4,
+    "ram_usage_percent": 72.8
+  },
+  "bitcoin_price_usd": 82413,
+  "ethereum_price_usd": 2062.05
+}
+2025-03-09 16:56:30,684 - MetricsCollector - ERROR - Failed to send metrics to API: 500 - 
+<html>
+    <head>
+        <title>Something went wrong :-(</title>
+        <link href="https://www.pythonanywhere.com/static/bootstrap/css/bootstrap.css" rel="stylesheet" media="screen" type="text/css">
+        <style>
+            body {
+                font-family: Helvetica, Arial, sans-serif;
+                width: 500px;
+                margin-left: auto;
+                margin-right: auto;
+                margin-top: 20px;
+            }
+
+            iframe {
+                width: 100%;
+                height: 100%;
+                border: none;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div class="main">
+        <div class="banner">
+            <h1>Something went wrong :-(</h1>
+
+            <p>
+            Something went wrong while trying to load this website;
+            please try again later.
+            </p>
+
+            <p>
+            If it is your site, you should check your logs
+            to determine what the problem is.
+            </p>
+
+        </div>
+        </div>
+        <iframe name="error-insert" src="//www.pythonanywhere.com/error_insert/jameskelly.pythonanywhere.com">
+        </iframe>
+    </body>
+</html>
+
+2025-03-09 16:57:31,554 - MetricsCollector - INFO - Collected and stored metrics: {
+  "timestamp": "2025-03-09T16:57:31.536114",
+  "system": {
+    "thread_count": 2,
+    "ram_usage_percent": 72.9
+  },
+  "bitcoin_price_usd": 82436,
+  "ethereum_price_usd": 2057.45
+}
+2025-03-09 16:57:32,015 - MetricsCollector - ERROR - Failed to send metrics to API: 500 - 
+<html>
+    <head>
+        <title>Something went wrong :-(</title>
+        <link href="https://www.pythonanywhere.com/static/bootstrap/css/bootstrap.css" rel="stylesheet" media="screen" type="text/css">
+        <style>
+            body {
+                font-family: Helvetica, Arial, sans-serif;
+                width: 500px;
+                margin-left: auto;
+                margin-right: auto;
+                margin-top: 20px;
+            }
+
+            iframe {
+                width: 100%;
+                height: 100%;
+                border: none;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div class="main">
+        <div class="banner">
+            <h1>Something went wrong :-(</h1>
+
+            <p>
+            Something went wrong while trying to load this website;
+            please try again later.
+            </p>
+
+            <p>
+            If it is your site, you should check your logs
+            to determine what the problem is.
+            </p>
+
+        </div>
+        </div>
+        <iframe name="error-insert" src="//www.pythonanywhere.com/error_insert/jameskelly.pythonanywhere.com">
+        </iframe>
+    </body>
+</html>
+
+2025-03-09 16:58:32,431 - MetricsCollector - INFO - Collected and stored metrics: {
+  "timestamp": "2025-03-09T16:58:32.418369",
+  "system": {
+    "thread_count": 2,
+    "ram_usage_percent": 72.4
+  },
+  "bitcoin_price_usd": 82361,
+  "ethereum_price_usd": 2054.45
+}
+2025-03-09 16:58:32,965 - MetricsCollector - ERROR - Failed to send metrics to API: 500 - 
+<html>
+    <head>
+        <title>Something went wrong :-(</title>
+        <link href="https://www.pythonanywhere.com/static/bootstrap/css/bootstrap.css" rel="stylesheet" media="screen" type="text/css">
+        <style>
+            body {
+                font-family: Helvetica, Arial, sans-serif;
+                width: 500px;
+                margin-left: auto;
+                margin-right: auto;
+                margin-top: 20px;
+            }
+
+            iframe {
+                width: 100%;
+                height: 100%;
+                border: none;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div class="main">
+        <div class="banner">
+            <h1>Something went wrong :-(</h1>
+
+            <p>
+            Something went wrong while trying to load this website;
+            please try again later.
+            </p>
+
+            <p>
+            If it is your site, you should check your logs
+            to determine what the problem is.
+            </p>
+
+        </div>
+        </div>
+        <iframe name="error-insert" src="//www.pythonanywhere.com/error_insert/jameskelly.pythonanywhere.com">
+        </iframe>
+    </body>
+</html>
+
+2025-03-09 16:59:33,660 - MetricsCollector - INFO - Collected and stored metrics: {
+  "timestamp": "2025-03-09T16:59:33.645103",
+  "system": {
+    "thread_count": 2,
+    "ram_usage_percent": 71.7
+  },
+  "bitcoin_price_usd": 82412,
+  "ethereum_price_usd": 2054.85
+}
+2025-03-09 16:59:34,136 - MetricsCollector - ERROR - Failed to send metrics to API: 500 - 
+<html>
+    <head>
+        <title>Something went wrong :-(</title>
+        <link href="https://www.pythonanywhere.com/static/bootstrap/css/bootstrap.css" rel="stylesheet" media="screen" type="text/css">
+        <style>
+            body {
+                font-family: Helvetica, Arial, sans-serif;
+                width: 500px;
+                margin-left: auto;
+                margin-right: auto;
+                margin-top: 20px;
+            }
+
+            iframe {
+                width: 100%;
+                height: 100%;
+                border: none;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div class="main">
+        <div class="banner">
+            <h1>Something went wrong :-(</h1>
+
+            <p>
+            Something went wrong while trying to load this website;
+            please try again later.
+            </p>
+
+            <p>
+            If it is your site, you should check your logs
+            to determine what the problem is.
+            </p>
+
+        </div>
+        </div>
+        <iframe name="error-insert" src="//www.pythonanywhere.com/error_insert/jameskelly.pythonanywhere.com">
+        </iframe>
+    </body>
+</html>
+
+2025-03-09 17:00:34,756 - MetricsCollector - INFO - Collected and stored metrics: {
+  "timestamp": "2025-03-09T17:00:34.742141",
+  "system": {
+    "thread_count": 2,
+    "ram_usage_percent": 70.0
+  },
+  "bitcoin_price_usd": 82573,
+  "ethereum_price_usd": 2056.74
+}
+2025-03-09 17:00:35,266 - MetricsCollector - ERROR - Failed to send metrics to API: 500 - 
+<html>
+    <head>
+        <title>Something went wrong :-(</title>
+        <link href="https://www.pythonanywhere.com/static/bootstrap/css/bootstrap.css" rel="stylesheet" media="screen" type="text/css">
+        <style>
+            body {
+                font-family: Helvetica, Arial, sans-serif;
+                width: 500px;
+                margin-left: auto;
+                margin-right: auto;
+                margin-top: 20px;
+            }
+
+            iframe {
+                width: 100%;
+                height: 100%;
+                border: none;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div class="main">
+        <div class="banner">
+            <h1>Something went wrong :-(</h1>
+
+            <p>
+            Something went wrong while trying to load this website;
+            please try again later.
+            </p>
+
+            <p>
+            If it is your site, you should check your logs
+            to determine what the problem is.
+            </p>
+
+        </div>
+        </div>
+        <iframe name="error-insert" src="//www.pythonanywhere.com/error_insert/jameskelly.pythonanywhere.com">
+        </iframe>
+    </body>
+</html>
+
+2025-03-09 17:01:35,710 - MetricsCollector - INFO - Collected and stored metrics: {
+  "timestamp": "2025-03-09T17:01:35.700044",
+  "system": {
+    "thread_count": 2,
+    "ram_usage_percent": 69.0
+  },
+  "bitcoin_price_usd": 82553,
+  "ethereum_price_usd": 2055.47
+}
+2025-03-09 17:01:36,406 - MetricsCollector - ERROR - Failed to send metrics to API: 500 - 
+<html>
+    <head>
+        <title>Something went wrong :-(</title>
+        <link href="https://www.pythonanywhere.com/static/bootstrap/css/bootstrap.css" rel="stylesheet" media="screen" type="text/css">
+        <style>
+            body {
+                font-family: Helvetica, Arial, sans-serif;
+                width: 500px;
+                margin-left: auto;
+                margin-right: auto;
+                margin-top: 20px;
+            }
+
+            iframe {
+                width: 100%;
+                height: 100%;
+                border: none;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div class="main">
+        <div class="banner">
+            <h1>Something went wrong :-(</h1>
+
+            <p>
+            Something went wrong while trying to load this website;
+            please try again later.
+            </p>
+
+            <p>
+            If it is your site, you should check your logs
+            to determine what the problem is.
+            </p>
+
+        </div>
+        </div>
+        <iframe name="error-insert" src="//www.pythonanywhere.com/error_insert/jameskelly.pythonanywhere.com">
+        </iframe>
+    </body>
+</html>
+
+2025-03-09 17:02:36,841 - MetricsCollector - INFO - Collected and stored metrics: {
+  "timestamp": "2025-03-09T17:02:36.832877",
+  "system": {
+    "thread_count": 2,
+    "ram_usage_percent": 69.0
+  },
+  "bitcoin_price_usd": 82412,
+  "ethereum_price_usd": 2050.33
+}
+2025-03-09 17:02:37,797 - MetricsCollector - ERROR - Failed to send metrics to API: 500 - 
+<html>
+    <head>
+        <title>Something went wrong :-(</title>
+        <link href="https://www.pythonanywhere.com/static/bootstrap/css/bootstrap.css" rel="stylesheet" media="screen" type="text/css">
+        <style>
+            body {
+                font-family: Helvetica, Arial, sans-serif;
+                width: 500px;
+                margin-left: auto;
+                margin-right: auto;
+                margin-top: 20px;
+            }
+
+            iframe {
+                width: 100%;
+                height: 100%;
+                border: none;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div class="main">
+        <div class="banner">
+            <h1>Something went wrong :-(</h1>
+
+            <p>
+            Something went wrong while trying to load this website;
+            please try again later.
+            </p>
+
+            <p>
+            If it is your site, you should check your logs
+            to determine what the problem is.
+            </p>
+
+        </div>
+        </div>
+        <iframe name="error-insert" src="//www.pythonanywhere.com/error_insert/jameskelly.pythonanywhere.com">
+        </iframe>
+    </body>
+</html>
+
+2025-03-09 17:03:38,414 - MetricsCollector - INFO - Collected and stored metrics: {
+  "timestamp": "2025-03-09T17:03:38.410431",
+  "system": {
+    "thread_count": 2,
+    "ram_usage_percent": 67.9
+  },
+  "bitcoin_price_usd": 82487,
+  "ethereum_price_usd": 2050.29
+}
+2025-03-09 17:03:39,434 - MetricsCollector - ERROR - Failed to send metrics to API: 500 - 
+<html>
+    <head>
+        <title>Something went wrong :-(</title>
+        <link href="https://www.pythonanywhere.com/static/bootstrap/css/bootstrap.css" rel="stylesheet" media="screen" type="text/css">
+        <style>
+            body {
+                font-family: Helvetica, Arial, sans-serif;
+                width: 500px;
+                margin-left: auto;
+                margin-right: auto;
+                margin-top: 20px;
+            }
+
+            iframe {
+                width: 100%;
+                height: 100%;
+                border: none;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div class="main">
+        <div class="banner">
+            <h1>Something went wrong :-(</h1>
+
+            <p>
+            Something went wrong while trying to load this website;
+            please try again later.
+            </p>
+
+            <p>
+            If it is your site, you should check your logs
+            to determine what the problem is.
+            </p>
+
+        </div>
+        </div>
+        <iframe name="error-insert" src="//www.pythonanywhere.com/error_insert/jameskelly.pythonanywhere.com">
+        </iframe>
+    </body>
+</html>
+
+2025-03-09 17:04:40,078 - MetricsCollector - INFO - Collected and stored metrics: {
+  "timestamp": "2025-03-09T17:04:40.064749",
+  "system": {
+    "thread_count": 2,
+    "ram_usage_percent": 67.0
+  },
+  "bitcoin_price_usd": 82597,
+  "ethereum_price_usd": 2053.09
+}
+2025-03-09 17:04:41,086 - MetricsCollector - ERROR - Failed to send metrics to API: 500 - 
+<html>
+    <head>
+        <title>Something went wrong :-(</title>
+        <link href="https://www.pythonanywhere.com/static/bootstrap/css/bootstrap.css" rel="stylesheet" media="screen" type="text/css">
+        <style>
+            body {
+                font-family: Helvetica, Arial, sans-serif;
+                width: 500px;
+                margin-left: auto;
+                margin-right: auto;
+                margin-top: 20px;
+            }
+
+            iframe {
+                width: 100%;
+                height: 100%;
+                border: none;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div class="main">
+        <div class="banner">
+            <h1>Something went wrong :-(</h1>
+
+            <p>
+            Something went wrong while trying to load this website;
+            please try again later.
+            </p>
+
+            <p>
+            If it is your site, you should check your logs
+            to determine what the problem is.
+            </p>
+
+        </div>
+        </div>
+        <iframe name="error-insert" src="//www.pythonanywhere.com/error_insert/jameskelly.pythonanywhere.com">
+        </iframe>
+    </body>
+</html>
+
+2025-03-09 17:05:41,546 - MetricsCollector - INFO - Collected and stored metrics: {
+  "timestamp": "2025-03-09T17:05:41.529601",
+  "system": {
+    "thread_count": 2,
+    "ram_usage_percent": 61.8
+  },
+  "bitcoin_price_usd": 82739,
+  "ethereum_price_usd": 2056.36
+}
+2025-03-09 17:05:42,893 - MetricsCollector - ERROR - Failed to send metrics to API: 500 - 
+<html>
+    <head>
+        <title>Something went wrong :-(</title>
+        <link href="https://www.pythonanywhere.com/static/bootstrap/css/bootstrap.css" rel="stylesheet" media="screen" type="text/css">
+        <style>
+            body {
+                font-family: Helvetica, Arial, sans-serif;
+                width: 500px;
+                margin-left: auto;
+                margin-right: auto;
+                margin-top: 20px;
+            }
+
+            iframe {
+                width: 100%;
+                height: 100%;
+                border: none;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div class="main">
+        <div class="banner">
+            <h1>Something went wrong :-(</h1>
+
+            <p>
+            Something went wrong while trying to load this website;
+            please try again later.
+            </p>
+
+            <p>
+            If it is your site, you should check your logs
+            to determine what the problem is.
+            </p>
+
+        </div>
+        </div>
+        <iframe name="error-insert" src="//www.pythonanywhere.com/error_insert/jameskelly.pythonanywhere.com">
+        </iframe>
+    </body>
+</html>
+
+2025-03-09 17:06:43,282 - MetricsCollector - INFO - Collected and stored metrics: {
+  "timestamp": "2025-03-09T17:06:43.263947",
+  "system": {
+    "thread_count": 2,
+    "ram_usage_percent": 61.3
+  },
+  "bitcoin_price_usd": 82671,
+  "ethereum_price_usd": 2052.82
+}
+2025-03-09 17:06:43,735 - MetricsCollector - ERROR - Failed to send metrics to API: 500 - 
+<html>
+    <head>
+        <title>Something went wrong :-(</title>
+        <link href="https://www.pythonanywhere.com/static/bootstrap/css/bootstrap.css" rel="stylesheet" media="screen" type="text/css">
+        <style>
+            body {
+                font-family: Helvetica, Arial, sans-serif;
+                width: 500px;
+                margin-left: auto;
+                margin-right: auto;
+                margin-top: 20px;
+            }
+
+            iframe {
+                width: 100%;
+                height: 100%;
+                border: none;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div class="main">
+        <div class="banner">
+            <h1>Something went wrong :-(</h1>
+
+            <p>
+            Something went wrong while trying to load this website;
+            please try again later.
+            </p>
+
+            <p>
+            If it is your site, you should check your logs
+            to determine what the problem is.
+            </p>
+
+        </div>
+        </div>
+        <iframe name="error-insert" src="//www.pythonanywhere.com/error_insert/jameskelly.pythonanywhere.com">
+        </iframe>
+    </body>
+</html>
+
+2025-03-09 17:07:44,451 - MetricsCollector - INFO - Collected and stored metrics: {
+  "timestamp": "2025-03-09T17:07:44.168322",
+  "system": {
+    "thread_count": 2,
+    "ram_usage_percent": 60.7
+  },
+  "bitcoin_price_usd": 82641,
+  "ethereum_price_usd": 2051.52
+}
+2025-03-09 17:07:46,120 - MetricsCollector - ERROR - Failed to send metrics to API: 500 - 
+<html>
+    <head>
+        <title>Something went wrong :-(</title>
+        <link href="https://www.pythonanywhere.com/static/bootstrap/css/bootstrap.css" rel="stylesheet" media="screen" type="text/css">
+        <style>
+            body {
+                font-family: Helvetica, Arial, sans-serif;
+                width: 500px;
+                margin-left: auto;
+                margin-right: auto;
+                margin-top: 20px;
+            }
+
+            iframe {
+                width: 100%;
+                height: 100%;
+                border: none;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div class="main">
+        <div class="banner">
+            <h1>Something went wrong :-(</h1>
+
+            <p>
+            Something went wrong while trying to load this website;
+            please try again later.
+            </p>
+
+            <p>
+            If it is your site, you should check your logs
+            to determine what the problem is.
+            </p>
+
+        </div>
+        </div>
+        <iframe name="error-insert" src="//www.pythonanywhere.com/error_insert/jameskelly.pythonanywhere.com">
+        </iframe>
+    </body>
+</html>
+
+2025-03-09 17:08:46,737 - MetricsCollector - INFO - Collected and stored metrics: {
+  "timestamp": "2025-03-09T17:08:46.722128",
+  "system": {
+    "thread_count": 2,
+    "ram_usage_percent": 62.2
+  },
+  "bitcoin_price_usd": 82661,
+  "ethereum_price_usd": 2049.86
+}
+2025-03-09 17:08:47,690 - MetricsCollector - ERROR - Failed to send metrics to API: 500 - 
+<html>
+    <head>
+        <title>Something went wrong :-(</title>
+        <link href="https://www.pythonanywhere.com/static/bootstrap/css/bootstrap.css" rel="stylesheet" media="screen" type="text/css">
+        <style>
+            body {
+                font-family: Helvetica, Arial, sans-serif;
+                width: 500px;
+                margin-left: auto;
+                margin-right: auto;
+                margin-top: 20px;
+            }
+
+            iframe {
+                width: 100%;
+                height: 100%;
+                border: none;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div class="main">
+        <div class="banner">
+            <h1>Something went wrong :-(</h1>
+
+            <p>
+            Something went wrong while trying to load this website;
+            please try again later.
+            </p>
+
+            <p>
+            If it is your site, you should check your logs
+            to determine what the problem is.
+            </p>
+
+        </div>
+        </div>
+        <iframe name="error-insert" src="//www.pythonanywhere.com/error_insert/jameskelly.pythonanywhere.com">
+        </iframe>
+    </body>
+</html>
+
+2025-03-09 17:09:48,295 - MetricsCollector - INFO - Collected and stored metrics: {
+  "timestamp": "2025-03-09T17:09:48.280246",
+  "system": {
+    "thread_count": 2,
+    "ram_usage_percent": 62.0
+  },
+  "bitcoin_price_usd": 82491,
+  "ethereum_price_usd": 2045.75
+}
+2025-03-09 17:09:50,526 - MetricsCollector - ERROR - Failed to send metrics to API: 500 - 
+<html>
+    <head>
+        <title>Something went wrong :-(</title>
+        <link href="https://www.pythonanywhere.com/static/bootstrap/css/bootstrap.css" rel="stylesheet" media="screen" type="text/css">
+        <style>
+            body {
+                font-family: Helvetica, Arial, sans-serif;
+                width: 500px;
+                margin-left: auto;
+                margin-right: auto;
+                margin-top: 20px;
+            }
+
+            iframe {
+                width: 100%;
+                height: 100%;
+                border: none;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div class="main">
+        <div class="banner">
+            <h1>Something went wrong :-(</h1>
+
+            <p>
+            Something went wrong while trying to load this website;
+            please try again later.
+            </p>
+
+            <p>
+            If it is your site, you should check your logs
+            to determine what the problem is.
+            </p>
+
+        </div>
+        </div>
+        <iframe name="error-insert" src="//www.pythonanywhere.com/error_insert/jameskelly.pythonanywhere.com">
+        </iframe>
+    </body>
+</html>
+
+2025-03-09 17:10:50,961 - MetricsCollector - INFO - Collected and stored metrics: {
+  "timestamp": "2025-03-09T17:10:50.961775",
+  "system": {
+    "thread_count": 2,
+    "ram_usage_percent": 62.2
+  },
+  "bitcoin_price_usd": 82490,
+  "ethereum_price_usd": 2044.03
+}
+2025-03-09 17:10:51,401 - MetricsCollector - ERROR - Failed to send metrics to API: 404 - <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Coming Soon: PythonAnywhere</title>
+        <style>
+            body {
+                font-family: Helvetica, Arial, sans-serif;
+                width: 500px;
+                margin-left: auto;
+                margin-right: auto;
+                margin-top: 20px;
+            }
+
+            h1 {
+                font-family: Trebuchet MS, Helvetica, Arial, sans-serif;
+            }
+
+            .for-site-owner {
+                font-size: smaller;
+                margin-top: 30px;
+                color: gray;
+            }
+        </style>
+    </head>
+
+    <body>
+        <img src="https://s3.amazonaws.com/pythonanywhere-error-images/logo-234x35.png" />
+
+        <div class="main">
+            <h1>Coming Soon!</h1>
+
+            <p>
+                This is going to be another great website hosted by
+                <a href="https://www.pythonanywhere.com/">PythonAnywhere</a>.
+            </p>
+
+            <p>
+                PythonAnywhere lets you host, run, and code Python in the cloud.
+                Our free plan gives you access to machines with
+                everything already set up for you. You can develop and host
+                your website or any other code directly from your browser
+                without having to install software or manage your own server.
+            </p>
+
+            <p>
+                Need more power? Upgraded plans start at $5/month.
+            </p>
+
+            <p>
+                <a href="https://www.pythonanywhere.com/">You can find out more about PythonAnywhere here.</a>
+            </p>
+        </div>
+
+        <div class="for-site-owner">
+            <h2>Developer info</h2>
+
+            <p>
+                Hi!  If this is your PythonAnywhere-hosted site, then you're
+                almost there &mdash; you just need to create
+                a web app to handle this domain.
+            </p>
+
+            <p>
+                Go to the "Web" tab inside
+                PythonAnywhere and click "Add a new web app".
+                If you already have a web app and you want to use the same code for this domain
+                (say because you've just upgraded and want the site
+                you built at <code>yourusername.pythonanywhere.com</code> to run on
+                <code>www.yourdomain.com</code>) then
+                <a href="https://help.pythonanywhere.com/pages/UsingANewDomainForExistingWebApp">this help page should explain
+                everything</a>.
+            </p>
+
+            <p>
+                If you're having problems getting it all working, drop us a line at
+                liveusercare@pythonanywhere.com, or in
+                <a href="https://www.pythonanywhere.com/forums/">the forums</a>,
+                or using the "Send
+                feedback" link on the site.  We'll
+                get back to you as fast as we can!
+            </p>
+
+        </div>
+
+    </body>
+</html>
+
+2025-03-09 17:11:51,742 - MetricsCollector - INFO - Collected and stored metrics: {
+  "timestamp": "2025-03-09T17:11:51.726784",
+  "system": {
+    "thread_count": 2,
+    "ram_usage_percent": 61.6
+  },
+  "bitcoin_price_usd": 82490,
+  "ethereum_price_usd": 2044.03
+}
+2025-03-09 17:11:52,161 - MetricsCollector - ERROR - Failed to send metrics to API: 404 - Page not found.
+2025-03-09 17:12:52,492 - MetricsCollector - INFO - Collected and stored metrics: {
+  "timestamp": "2025-03-09T17:12:52.487544",
+  "system": {
+    "thread_count": 2,
+    "ram_usage_percent": 61.7
+  },
+  "bitcoin_price_usd": 82518,
+  "ethereum_price_usd": 2044.18
+}
+2025-03-09 17:12:52,924 - MetricsCollector - ERROR - Failed to send metrics to API: 404 - Page not found.
+2025-03-09 17:13:53,599 - MetricsCollector - INFO - Collected and stored metrics: {
+  "timestamp": "2025-03-09T17:13:53.585528",
+  "system": {
+    "thread_count": 2,
+    "ram_usage_percent": 61.8
+  },
+  "bitcoin_price_usd": 82600,
+  "ethereum_price_usd": 2045.54
+}
+2025-03-09 17:13:54,042 - MetricsCollector - ERROR - Failed to send metrics to API: 404 - Page not found.
+2025-03-09 17:14:54,420 - MetricsCollector - INFO - Collected and stored metrics: {
+  "timestamp": "2025-03-09T17:14:54.404624",
+  "system": {
+    "thread_count": 2,
+    "ram_usage_percent": 62.0
+  },
+  "bitcoin_price_usd": 82687,
+  "ethereum_price_usd": 2048.64
+}
+2025-03-09 17:14:54,840 - MetricsCollector - ERROR - Failed to send metrics to API: 404 - Page not found.
+2025-03-09 17:15:55,301 - MetricsCollector - INFO - Collected and stored metrics: {
+  "timestamp": "2025-03-09T17:15:55.287470",
+  "system": {
+    "thread_count": 2,
+    "ram_usage_percent": 63.5
+  },
+  "bitcoin_price_usd": 82809,
+  "ethereum_price_usd": 2051.74
+}
+2025-03-09 17:15:55,731 - MetricsCollector - ERROR - Failed to send metrics to API: 404 - Page not found.
+2025-03-09 17:16:56,445 - MetricsCollector - INFO - Collected and stored metrics: {
+  "timestamp": "2025-03-09T17:16:56.432126",
+  "system": {
+    "thread_count": 2,
+    "ram_usage_percent": 66.5
+  },
+  "bitcoin_price_usd": 82843,
+  "ethereum_price_usd": 2052.29
+}
+2025-03-09 17:16:56,865 - MetricsCollector - ERROR - Failed to send metrics to API: 404 - Page not found.
+2025-03-09 17:17:57,291 - MetricsCollector - INFO - Collected and stored metrics: {
+  "timestamp": "2025-03-09T17:17:57.259804",
+  "system": {
+    "thread_count": 2,
+    "ram_usage_percent": 66.8
+  },
+  "bitcoin_price_usd": 82848,
+  "ethereum_price_usd": 2052.13
+}
+2025-03-09 17:17:57,722 - MetricsCollector - ERROR - Failed to send metrics to API: 404 - Page not found.
+2025-03-09 17:18:58,121 - MetricsCollector - INFO - Collected and stored metrics: {
+  "timestamp": "2025-03-09T17:18:58.104687",
+  "system": {
+    "thread_count": 2,
+    "ram_usage_percent": 66.3
+  },
+  "bitcoin_price_usd": 82933,
+  "ethereum_price_usd": 2054.28
+}
+2025-03-09 17:18:58,563 - MetricsCollector - ERROR - Failed to send metrics to API: 404 - Page not found.
+2025-03-09 17:19:59,154 - MetricsCollector - INFO - Collected and stored metrics: {
+  "timestamp": "2025-03-09T17:19:59.154910",
+  "system": {
+    "thread_count": 2,
+    "ram_usage_percent": 65.7
+  },
+  "bitcoin_price_usd": 82884,
+  "ethereum_price_usd": 2053.97
+}
+2025-03-09 17:19:59,597 - MetricsCollector - ERROR - Failed to send metrics to API: 404 - Page not found.
+2025-03-09 17:21:00,033 - MetricsCollector - INFO - Collected and stored metrics: {
+  "timestamp": "2025-03-09T17:21:00.018423",
+  "system": {
+    "thread_count": 2,
+    "ram_usage_percent": 67.2
+  },
+  "bitcoin_price_usd": 82763,
+  "ethereum_price_usd": 2048.99
+}
+2025-03-09 17:21:00,457 - MetricsCollector - ERROR - Failed to send metrics to API: 404 - Page not found.
+2025-03-09 17:22:00,751 - MetricsCollector - INFO - Collected and stored metrics: {
+  "timestamp": "2025-03-09T17:22:00.735743",
+  "system": {
+    "thread_count": 4,
+    "ram_usage_percent": 66.5
+  },
+  "bitcoin_price_usd": 82763,
+  "ethereum_price_usd": 2048.99
+}
+2025-03-09 17:22:01,165 - MetricsCollector - ERROR - Failed to send metrics to API: 404 - Page not found.
+2025-03-09 17:23:01,460 - MetricsCollector - INFO - Collected and stored metrics: {
+  "timestamp": "2025-03-09T17:23:01.445249",
+  "system": {
+    "thread_count": 4,
+    "ram_usage_percent": 65.3
+  },
+  "bitcoin_price_usd": 82599,
+  "ethereum_price_usd": 2044.59
+}
+2025-03-09 17:23:01,950 - MetricsCollector - ERROR - Failed to send metrics to API: 404 - Page not found.
+2025-03-09 17:24:02,589 - MetricsCollector - INFO - Collected and stored metrics: {
+  "timestamp": "2025-03-09T17:24:02.575325",
+  "system": {
+    "thread_count": 4,
+    "ram_usage_percent": 65.3
+  },
+  "bitcoin_price_usd": 82357,
+  "ethereum_price_usd": 2038.62
+}
+2025-03-09 17:24:03,029 - MetricsCollector - ERROR - Failed to send metrics to API: 404 - Page not found.
+2025-03-09 17:25:03,641 - MetricsCollector - INFO - Collected and stored metrics: {
+  "timestamp": "2025-03-09T17:25:03.625415",
+  "system": {
+    "thread_count": 4,
+    "ram_usage_percent": 64.8
+  },
+  "bitcoin_price_usd": 82289,
+  "ethereum_price_usd": 2034.88
+}
+2025-03-09 17:25:04,080 - MetricsCollector - ERROR - Failed to send metrics to API: 404 - Page not found.
+2025-03-09 17:26:04,608 - MetricsCollector - INFO - Collected and stored metrics: {
+  "timestamp": "2025-03-09T17:26:04.593335",
+  "system": {
+    "thread_count": 4,
+    "ram_usage_percent": 64.0
+  },
+  "bitcoin_price_usd": 82222,
+  "ethereum_price_usd": 2031.53
+}
+2025-03-09 17:26:05,039 - MetricsCollector - ERROR - Failed to send metrics to API: 404 - Page not found.
+2025-03-09 17:27:06,155 - MetricsCollector - INFO - Collected and stored metrics: {
+  "timestamp": "2025-03-09T17:27:06.142648",
+  "system": {
+    "thread_count": 4,
+    "ram_usage_percent": 67.5
+  },
+  "bitcoin_price_usd": 82234,
+  "ethereum_price_usd": 2031.0
+}
+2025-03-09 17:27:06,590 - MetricsCollector - ERROR - Failed to send metrics to API: 404 - Page not found.
+2025-03-09 17:28:06,982 - MetricsCollector - INFO - Collected and stored metrics: {
+  "timestamp": "2025-03-09T17:28:06.966469",
+  "system": {
+    "thread_count": 4,
+    "ram_usage_percent": 65.1
+  },
+  "bitcoin_price_usd": 82266,
+  "ethereum_price_usd": 2032.17
+}
+2025-03-09 17:28:07,421 - MetricsCollector - ERROR - Failed to send metrics to API: 404 - Page not found.
+2025-03-09 17:29:07,798 - MetricsCollector - INFO - Collected and stored metrics: {
+  "timestamp": "2025-03-09T17:29:07.798721",
+  "system": {
+    "thread_count": 4,
+    "ram_usage_percent": 65.2
+  },
+  "bitcoin_price_usd": 82266,
+  "ethereum_price_usd": 2032.17
+}
+2025-03-09 17:29:08,261 - MetricsCollector - ERROR - Failed to send metrics to API: 404 - Page not found.
+2025-03-09 17:30:08,861 - MetricsCollector - INFO - Collected and stored metrics: {
+  "timestamp": "2025-03-09T17:30:08.848676",
+  "system": {
+    "thread_count": 4,
+    "ram_usage_percent": 66.5
+  },
+  "bitcoin_price_usd": 82225,
+  "ethereum_price_usd": 2029.49
+}
+2025-03-09 17:30:09,630 - MetricsCollector - ERROR - Failed to send metrics to API: 404 - Page not found.
+2025-03-09 17:31:10,127 - MetricsCollector - INFO - Collected and stored metrics: {
+  "timestamp": "2025-03-09T17:31:10.092798",
+  "system": {
+    "thread_count": 4,
+    "ram_usage_percent": 64.7
+  },
+  "bitcoin_price_usd": 82370,
+  "ethereum_price_usd": 2032.29
+}
+2025-03-09 17:31:10,673 - MetricsCollector - ERROR - Failed to send metrics to API: 404 - Page not found.
+2025-03-09 17:32:11,169 - MetricsCollector - INFO - Collected and stored metrics: {
+  "timestamp": "2025-03-09T17:32:11.154085",
+  "system": {
+    "thread_count": 4,
+    "ram_usage_percent": 64.9
+  },
+  "bitcoin_price_usd": 82478,
+  "ethereum_price_usd": 2036.76
+}
+2025-03-09 17:32:11,591 - MetricsCollector - ERROR - Failed to send metrics to API: 404 - Page not found.
+2025-03-09 17:33:11,977 - MetricsCollector - INFO - Collected and stored metrics: {
+  "timestamp": "2025-03-09T17:33:11.960677",
+  "system": {
+    "thread_count": 4,
+    "ram_usage_percent": 64.8
+  },
+  "bitcoin_price_usd": 82440,
+  "ethereum_price_usd": 2036.2
+}
+2025-03-09 17:33:12,412 - MetricsCollector - ERROR - Failed to send metrics to API: 404 - Page not found.
+2025-03-09 17:34:12,891 - MetricsCollector - INFO - Collected and stored metrics: {
+  "timestamp": "2025-03-09T17:34:12.873841",
+  "system": {
+    "thread_count": 4,
+    "ram_usage_percent": 64.1
+  },
+  "bitcoin_price_usd": 82440,
+  "ethereum_price_usd": 2036.2
+}
+2025-03-09 17:34:13,495 - MetricsCollector - ERROR - Failed to send metrics to API: 404 - Page not found.
+2025-03-09 17:35:14,122 - MetricsCollector - INFO - Collected and stored metrics: {
+  "timestamp": "2025-03-09T17:35:14.113324",
+  "system": {
+    "thread_count": 4,
+    "ram_usage_percent": 65.1
+  },
+  "bitcoin_price_usd": 82425,
+  "ethereum_price_usd": 2035.06
+}
+2025-03-09 17:35:14,555 - MetricsCollector - ERROR - Failed to send metrics to API: 404 - Page not found.
+2025-03-09 17:36:15,253 - MetricsCollector - INFO - Collected and stored metrics: {
+  "timestamp": "2025-03-09T17:36:15.237253",
+  "system": {
+    "thread_count": 4,
+    "ram_usage_percent": 65.2
+  },
+  "bitcoin_price_usd": 82519,
+  "ethereum_price_usd": 2039.31
+}
+2025-03-09 17:36:15,978 - MetricsCollector - ERROR - Failed to send metrics to API: 404 - Page not found.
+2025-03-09 17:37:16,679 - MetricsCollector - INFO - Collected and stored metrics: {
+  "timestamp": "2025-03-09T17:37:16.663828",
+  "system": {
+    "thread_count": 4,
+    "ram_usage_percent": 67.1
+  },
+  "bitcoin_price_usd": 82603,
+  "ethereum_price_usd": 2041.37
+}
+2025-03-09 17:37:17,127 - MetricsCollector - ERROR - Failed to send metrics to API: 404 - Page not found.
+2025-03-09 17:38:17,535 - MetricsCollector - INFO - Collected and stored metrics: {
+  "timestamp": "2025-03-09T17:38:17.516732",
+  "system": {
+    "thread_count": 2,
+    "ram_usage_percent": 66.5
+  },
+  "bitcoin_price_usd": 82578,
+  "ethereum_price_usd": 2040.67
+}
+2025-03-09 17:38:17,967 - MetricsCollector - ERROR - Failed to send metrics to API: 404 - Page not found.
+2025-03-09 17:39:18,670 - MetricsCollector - INFO - Collected and stored metrics: {
+  "timestamp": "2025-03-09T17:39:18.656935",
+  "system": {
+    "thread_count": 2,
+    "ram_usage_percent": 69.7
+  },
+  "bitcoin_price_usd": 82509,
+  "ethereum_price_usd": 2037.84
+}
+2025-03-09 17:39:19,167 - MetricsCollector - ERROR - Failed to send metrics to API: 404 - Page not found.
+2025-03-09 17:40:19,518 - MetricsCollector - INFO - Collected and stored metrics: {
+  "timestamp": "2025-03-09T17:40:19.502531",
+  "system": {
+    "thread_count": 2,
+    "ram_usage_percent": 66.5
+  },
+  "bitcoin_price_usd": 82514,
+  "ethereum_price_usd": 2038.26
+}
+2025-03-09 17:40:19,964 - MetricsCollector - ERROR - Failed to send metrics to API: 404 - Page not found.
+2025-03-09 17:41:20,574 - MetricsCollector - INFO - Collected and stored metrics: {
+  "timestamp": "2025-03-09T17:41:20.559117",
+  "system": {
+    "thread_count": 2,
+    "ram_usage_percent": 66.8
+  },
+  "bitcoin_price_usd": 82439,
+  "ethereum_price_usd": 2034.67
+}
+2025-03-09 17:41:21,017 - MetricsCollector - ERROR - Failed to send metrics to API: 404 - Page not found.
+2025-03-09 18:02:57,035 - MetricsCollector - INFO - Sending metrics to API at https://jameskelly.pythonanywhere.com
+2025-03-09 18:02:57,917 - MetricsCollector - ERROR - Error collecting metrics: 'ram_total' is an invalid keyword argument for SystemMetric
+2025-03-09 18:03:58,156 - MetricsCollector - ERROR - Error collecting metrics: 'ram_total' is an invalid keyword argument for SystemMetric
+2025-03-09 18:04:58,515 - MetricsCollector - ERROR - Error collecting metrics: 'ram_total' is an invalid keyword argument for SystemMetric
+2025-03-09 18:05:58,768 - MetricsCollector - ERROR - Error collecting metrics: 'ram_total' is an invalid keyword argument for SystemMetric
+2025-03-09 18:06:59,221 - MetricsCollector - ERROR - Error collecting metrics: 'ram_total' is an invalid keyword argument for SystemMetric
+2025-03-09 18:07:28,423 - MetricsCollector - INFO - Sending metrics to API at https://jameskelly.pythonanywhere.com
+2025-03-09 18:07:28,707 - MetricsCollector - ERROR - Error collecting metrics: 'total_ram' is an invalid keyword argument for SystemMetric
+2025-03-09 18:08:29,311 - MetricsCollector - ERROR - Error collecting metrics: 'total_ram' is an invalid keyword argument for SystemMetric
+2025-03-09 18:09:29,605 - MetricsCollector - ERROR - Error collecting metrics: 'total_ram' is an invalid keyword argument for SystemMetric
+2025-03-09 18:10:30,550 - MetricsCollector - ERROR - Error collecting metrics: 'total_ram' is an invalid keyword argument for SystemMetric
+2025-03-09 18:11:30,826 - MetricsCollector - ERROR - Error collecting metrics: 'total_ram' is an invalid keyword argument for SystemMetric
+2025-03-09 18:12:31,203 - MetricsCollector - ERROR - Error collecting metrics: 'total_ram' is an invalid keyword argument for SystemMetric
+2025-03-09 18:13:31,507 - MetricsCollector - ERROR - Error collecting metrics: 'total_ram' is an invalid keyword argument for SystemMetric
+2025-03-09 18:17:14,166 - MetricsCollector - INFO - Sending metrics to API at https://jameskelly.pythonanywhere.com
+2025-03-09 18:17:15,183 - MetricsCollector - INFO - Collected and stored metrics: {
+  "timestamp": "2025-03-09T18:17:15.152050",
+  "system": {
+    "thread_count": 9,
+    "ram_usage_percent": 73.6
+  },
+  "bitcoin_price_usd": 82561,
+  "ethereum_price_usd": 2027.84
+}
+2025-03-09 18:17:15,638 - MetricsCollector - ERROR - Failed to send metrics to API: 404 - Page not found.
+2025-03-09 18:18:15,977 - MetricsCollector - INFO - Collected and stored metrics: {
+  "timestamp": "2025-03-09T18:18:15.961596",
+  "system": {
+    "thread_count": 6,
+    "ram_usage_percent": 72.8
+  },
+  "bitcoin_price_usd": 82493,
+  "ethereum_price_usd": 2025.09
+}
+2025-03-09 18:18:16,400 - MetricsCollector - ERROR - Failed to send metrics to API: 404 - Page not found.
+2025-03-09 18:19:16,761 - MetricsCollector - INFO - Collected and stored metrics: {
+  "timestamp": "2025-03-09T18:19:16.744792",
+  "system": {
+    "thread_count": 6,
+    "ram_usage_percent": 71.3
+  },
+  "bitcoin_price_usd": 82493,
+  "ethereum_price_usd": 2025.09
+}
+2025-03-09 18:19:17,209 - MetricsCollector - ERROR - Failed to send metrics to API: 404 - Page not found.
+2025-03-09 18:20:17,937 - MetricsCollector - INFO - Collected and stored metrics: {
+  "timestamp": "2025-03-09T18:20:17.919509",
+  "system": {
+    "thread_count": 6,
+    "ram_usage_percent": 72.7
+  },
+  "bitcoin_price_usd": 82365,
+  "ethereum_price_usd": 2020.21
+}
+2025-03-09 18:20:18,373 - MetricsCollector - ERROR - Failed to send metrics to API: 404 - Page not found.
+2025-03-09 18:21:18,756 - MetricsCollector - INFO - Collected and stored metrics: {
+  "timestamp": "2025-03-09T18:21:18.740372",
+  "system": {
+    "thread_count": 6,
+    "ram_usage_percent": 72.4
+  },
+  "bitcoin_price_usd": 82365,
+  "ethereum_price_usd": 2020.21
+}
+2025-03-09 18:21:19,190 - MetricsCollector - ERROR - Failed to send metrics to API: 404 - Page not found.
+2025-03-09 18:22:19,931 - MetricsCollector - INFO - Collected and stored metrics: {
+  "timestamp": "2025-03-09T18:22:19.916105",
+  "system": {
+    "thread_count": 6,
+    "ram_usage_percent": 73.2
+  },
+  "bitcoin_price_usd": 82478,
+  "ethereum_price_usd": 2021.54
+}
+2025-03-09 18:22:20,378 - MetricsCollector - ERROR - Failed to send metrics to API: 404 - Page not found.
+2025-03-09 18:23:20,703 - MetricsCollector - INFO - Collected and stored metrics: {
+  "timestamp": "2025-03-09T18:23:20.682101",
+  "system": {
+    "thread_count": 6,
+    "ram_usage_percent": 73.2
+  },
+  "bitcoin_price_usd": 82478,
+  "ethereum_price_usd": 2021.54
+}
+2025-03-09 18:23:21,139 - MetricsCollector - ERROR - Failed to send metrics to API: 404 - Page not found.
+2025-03-09 18:23:47,930 - MetricsCollector - INFO - Sending metrics to API at https://jameskelly.pythonanywhere.com
+2025-03-09 18:23:48,489 - MetricsCollector - ERROR - Error collecting metrics: 'total_ram' is an invalid keyword argument for SystemMetric
+2025-03-09 18:24:49,288 - MetricsCollector - ERROR - Error collecting metrics: 'total_ram' is an invalid keyword argument for SystemMetric
+2025-03-09 18:25:54,884 - MetricsCollector - INFO - Collected and stored metrics: {
+  "timestamp": "2025-03-09T18:25:54.847866",
+  "system": {
+    "thread_count": 8,
+    "ram_usage_percent": 75.6
+  },
+  "bitcoin_price_usd": 82529,
+  "ethereum_price_usd": 2018.96
+}
+2025-03-09 18:26:55,293 - MetricsCollector - INFO - Collected and stored metrics: {
+  "timestamp": "2025-03-09T18:26:55.277534",
+  "system": {
+    "thread_count": 6,
+    "ram_usage_percent": 73.5
+  },
+  "bitcoin_price_usd": 82639,
+  "ethereum_price_usd": 2021.04
+}
+2025-03-09 18:27:55,602 - MetricsCollector - INFO - Collected and stored metrics: {
+  "timestamp": "2025-03-09T18:27:55.588353",
+  "system": {
+    "thread_count": 6,
+    "ram_usage_percent": 68.1
+  },
+  "bitcoin_price_usd": 82639,
+  "ethereum_price_usd": 2021.04
+}
+2025-03-09 19:47:14,104 - MetricsCollector - ERROR - Error collecting metrics: 'total_ram' is an invalid keyword argument for SystemMetric
+2025-03-09 19:48:14,834 - MetricsCollector - ERROR - Error collecting metrics: 'total_ram' is an invalid keyword argument for SystemMetric
+2025-03-09 19:49:15,226 - MetricsCollector - ERROR - Error collecting metrics: 'total_ram' is an invalid keyword argument for SystemMetric
+2025-03-09 19:50:15,853 - MetricsCollector - ERROR - Error collecting metrics: 'total_ram' is an invalid keyword argument for SystemMetric
+2025-03-09 19:51:16,256 - MetricsCollector - ERROR - Error collecting metrics: 'total_ram' is an invalid keyword argument for SystemMetric
+2025-03-09 19:52:16,806 - MetricsCollector - ERROR - Error collecting metrics: 'total_ram' is an invalid keyword argument for SystemMetric
+2025-03-09 19:53:14,162 - MetricsCollector - ERROR - Error collecting metrics: 'total_ram' is an invalid keyword argument for SystemMetric
+2025-03-09 19:54:14,679 - MetricsCollector - ERROR - Error collecting metrics: 'total_ram' is an invalid keyword argument for SystemMetric
+2025-03-09 19:55:15,375 - MetricsCollector - ERROR - Error collecting metrics: 'total_ram' is an invalid keyword argument for SystemMetric
+2025-03-09 19:56:15,775 - MetricsCollector - ERROR - Error collecting metrics: 'total_ram' is an invalid keyword argument for SystemMetric
+2025-03-09 19:57:16,671 - MetricsCollector - ERROR - Error collecting metrics: 'total_ram' is an invalid keyword argument for SystemMetric
+2025-03-09 19:58:17,025 - MetricsCollector - ERROR - Error collecting metrics: 'total_ram' is an invalid keyword argument for SystemMetric
+2025-03-09 19:59:17,262 - MetricsCollector - ERROR - Error collecting metrics: 'total_ram' is an invalid keyword argument for SystemMetric
+2025-03-09 20:00:37,116 - MetricsCollector - INFO - Collected and stored metrics: {
+  "timestamp": "2025-03-09T20:00:37.089546",
+  "system": {
+    "thread_count": 9,
+    "ram_usage_percent": 67.0
+  },
+  "bitcoin_price_usd": 82535,
+  "ethereum_price_usd": 2041.0
+}
+2025-03-09 20:01:37,406 - MetricsCollector - INFO - Collected and stored metrics: {
+  "timestamp": "2025-03-09T20:01:37.390123",
+  "system": {
+    "thread_count": 6,
+    "ram_usage_percent": 68.0
+  },
+  "bitcoin_price_usd": 82535,
+  "ethereum_price_usd": 2041.0
+}
+2025-03-09 22:08:54,083 - MetricsCollector - INFO - Collected and stored metrics: {
+  "timestamp": "2025-03-09T22:08:54.045525",
+  "system": {
+    "thread_count": 8,
+    "ram_usage_percent": 54.0
+  },
+  "bitcoin_price_usd": 81733,
+  "ethereum_price_usd": 2020.82
+}
+2025-03-09 22:09:54,768 - MetricsCollector - INFO - Collected and stored metrics: {
+  "timestamp": "2025-03-09T22:09:54.750431",
+  "system": {
+    "thread_count": 6,
+    "ram_usage_percent": 64.4
+  },
+  "bitcoin_price_usd": 81616,
+  "ethereum_price_usd": 2018.61
+}
+2025-03-09 22:10:55,073 - MetricsCollector - INFO - Collected and stored metrics: {
+  "timestamp": "2025-03-09T22:10:55.059650",
+  "system": {
+    "thread_count": 6,
+    "ram_usage_percent": 61.5
+  },
+  "bitcoin_price_usd": 81616,
+  "ethereum_price_usd": 2018.61
+}
+2025-03-09 22:11:55,932 - MetricsCollector - INFO - Collected and stored metrics: {
+  "timestamp": "2025-03-09T22:11:55.916957",
+  "system": {
+    "thread_count": 6,
+    "ram_usage_percent": 63.7
+  },
+  "bitcoin_price_usd": 81568,
+  "ethereum_price_usd": 2017.35
+}
+2025-03-09 22:12:56,408 - MetricsCollector - INFO - Collected and stored metrics: {
+  "timestamp": "2025-03-09T22:12:56.392862",
+  "system": {
+    "thread_count": 6,
+    "ram_usage_percent": 65.3
+  },
+  "bitcoin_price_usd": 81568,
+  "ethereum_price_usd": 2018.29
+}
+2025-03-09 22:13:56,799 - MetricsCollector - INFO - Collected and stored metrics: {
+  "timestamp": "2025-03-09T22:13:56.782978",
+  "system": {
+    "thread_count": 6,
+    "ram_usage_percent": 65.1
+  },
+  "bitcoin_price_usd": 81552,
+  "ethereum_price_usd": 2018.26
+}
+2025-03-09 22:14:57,329 - MetricsCollector - INFO - Collected and stored metrics: {
+  "timestamp": "2025-03-09T22:14:57.320726",
+  "system": {
+    "thread_count": 6,
+    "ram_usage_percent": 64.3
+  },
+  "bitcoin_price_usd": 81552,
+  "ethereum_price_usd": 2018.26
+}
+2025-03-09 22:15:57,818 - MetricsCollector - INFO - Collected and stored metrics: {
+  "timestamp": "2025-03-09T22:15:57.801824",
+  "system": {
+    "thread_count": 6,
+    "ram_usage_percent": 62.2
+  },
+  "bitcoin_price_usd": 81515,
+  "ethereum_price_usd": 2016.98
+}
+2025-03-09 22:16:58,163 - MetricsCollector - INFO - Collected and stored metrics: {
+  "timestamp": "2025-03-09T22:16:58.148597",
+  "system": {
+    "thread_count": 5,
+    "ram_usage_percent": 62.0
+  },
+  "bitcoin_price_usd": 81506,
+  "ethereum_price_usd": 2017.58
+}
+2025-03-09 22:17:58,558 - MetricsCollector - INFO - Collected and stored metrics: {
+  "timestamp": "2025-03-09T22:17:58.543001",
+  "system": {
+    "thread_count": 5,
+    "ram_usage_percent": 63.0
+  },
+  "bitcoin_price_usd": 81525,
+  "ethereum_price_usd": 2019.73
+}
+2025-03-09 22:18:58,864 - MetricsCollector - INFO - Collected and stored metrics: {
+  "timestamp": "2025-03-09T22:18:58.848423",
+  "system": {
+    "thread_count": 5,
+    "ram_usage_percent": 63.5
+  },
+  "bitcoin_price_usd": 81525,
+  "ethereum_price_usd": 2019.73
+}
+2025-03-09 22:19:59,390 - MetricsCollector - INFO - Collected and stored metrics: {
+  "timestamp": "2025-03-09T22:19:59.374574",
+  "system": {
+    "thread_count": 5,
+    "ram_usage_percent": 63.4
+  },
+  "bitcoin_price_usd": 81529,
+  "ethereum_price_usd": 2019.97
+}
+2025-03-09 22:21:00,026 - MetricsCollector - INFO - Collected and stored metrics: {
+  "timestamp": "2025-03-09T22:21:00.010449",
+  "system": {
+    "thread_count": 5,
+    "ram_usage_percent": 62.2
+  },
+  "bitcoin_price_usd": 81669,
+  "ethereum_price_usd": 2023.56
+}
+2025-03-09 22:22:00,357 - MetricsCollector - INFO - Collected and stored metrics: {
+  "timestamp": "2025-03-09T22:22:00.342312",
+  "system": {
+    "thread_count": 5,
+    "ram_usage_percent": 62.3
+  },
+  "bitcoin_price_usd": 81669,
+  "ethereum_price_usd": 2023.56
+}
+2025-03-09 22:23:00,677 - MetricsCollector - INFO - Collected and stored metrics: {
+  "timestamp": "2025-03-09T22:23:00.661957",
+  "system": {
+    "thread_count": 5,
+    "ram_usage_percent": 63.1
+  },
+  "bitcoin_price_usd": 81692,
+  "ethereum_price_usd": 2024.53
+}
+2025-03-09 22:24:01,260 - MetricsCollector - INFO - Collected and stored metrics: {
+  "timestamp": "2025-03-09T22:24:01.240532",
+  "system": {
+    "thread_count": 5,
+    "ram_usage_percent": 63.4
+  },
+  "bitcoin_price_usd": 81735,
+  "ethereum_price_usd": 2025.59
+}
+2025-03-09 22:25:01,992 - MetricsCollector - INFO - Collected and stored metrics: {
+  "timestamp": "2025-03-09T22:25:01.982941",
+  "system": {
+    "thread_count": 5,
+    "ram_usage_percent": 66.2
+  },
+  "bitcoin_price_usd": 81667,
+  "ethereum_price_usd": 2023.47
+}
+2025-03-09 22:26:02,260 - MetricsCollector - INFO - Collected and stored metrics: {
+  "timestamp": "2025-03-09T22:26:02.245757",
+  "system": {
+    "thread_count": 5,
+    "ram_usage_percent": 65.3
+  },
+  "bitcoin_price_usd": 81667,
+  "ethereum_price_usd": 2023.47
+}
+2025-03-09 22:27:02,721 - MetricsCollector - INFO - Collected and stored metrics: {
+  "timestamp": "2025-03-09T22:27:02.703762",
+  "system": {
+    "thread_count": 5,
+    "ram_usage_percent": 65.6
+  },
+  "bitcoin_price_usd": 81658,
+  "ethereum_price_usd": 2022.76
+}
+2025-03-09 22:28:04,011 - MetricsCollector - INFO - Collected and stored metrics: {
+  "timestamp": "2025-03-09T22:28:03.994997",
+  "system": {
+    "thread_count": 5,
+    "ram_usage_percent": 66.0
+  },
+  "bitcoin_price_usd": 81596,
+  "ethereum_price_usd": 2021.76
+}
+2025-03-09 22:29:04,406 - MetricsCollector - INFO - Collected and stored metrics: {
+  "timestamp": "2025-03-09T22:29:04.389604",
+  "system": {
+    "thread_count": 4,
+    "ram_usage_percent": 66.4
+  },
+  "bitcoin_price_usd": 81586,
+  "ethereum_price_usd": 2021.01
+}
+2025-03-09 22:30:05,045 - MetricsCollector - INFO - Collected and stored metrics: {
+  "timestamp": "2025-03-09T22:30:05.030012",
+  "system": {
+    "thread_count": 4,
+    "ram_usage_percent": 65.3
+  },
+  "bitcoin_price_usd": 81511,
+  "ethereum_price_usd": 2018.87
+}
+2025-03-09 22:31:05,341 - MetricsCollector - INFO - Collected and stored metrics: {
+  "timestamp": "2025-03-09T22:31:05.325489",
+  "system": {
+    "thread_count": 4,
+    "ram_usage_percent": 65.9
+  },
+  "bitcoin_price_usd": 81511,
+  "ethereum_price_usd": 2018.87
+}
+2025-03-09 22:32:11,563 - MetricsCollector - INFO - Collected and stored metrics: {
+  "timestamp": "2025-03-09T22:32:11.548601",
+  "system": {
+    "thread_count": 4,
+    "ram_usage_percent": 65.4
+  },
+  "bitcoin_price_usd": 81325,
+  "ethereum_price_usd": 2014.62
+}
+2025-03-09 22:33:11,825 - MetricsCollector - INFO - Collected and stored metrics: {
+  "timestamp": "2025-03-09T22:33:11.808831",
+  "system": {
+    "thread_count": 4,
+    "ram_usage_percent": 68.2
+  },
+  "bitcoin_price_usd": 81121,
+  "ethereum_price_usd": 2010.1
+}
+2025-03-09 22:34:12,275 - MetricsCollector - INFO - Collected and stored metrics: {
+  "timestamp": "2025-03-09T22:34:12.248823",
+  "system": {
+    "thread_count": 4,
+    "ram_usage_percent": 68.9
+  },
+  "bitcoin_price_usd": 81116,
+  "ethereum_price_usd": 2009.21
+}
+2025-03-09 22:35:12,722 - MetricsCollector - INFO - Collected and stored metrics: {
+  "timestamp": "2025-03-09T22:35:12.705095",
+  "system": {
+    "thread_count": 4,
+    "ram_usage_percent": 67.7
+  },
+  "bitcoin_price_usd": 81017,
+  "ethereum_price_usd": 2008.9
+}
+2025-03-09 22:36:13,595 - MetricsCollector - INFO - Collected and stored metrics: {
+  "timestamp": "2025-03-09T22:36:13.576956",
+  "system": {
+    "thread_count": 4,
+    "ram_usage_percent": 69.6
+  },
+  "bitcoin_price_usd": 80979,
+  "ethereum_price_usd": 2008.03
+}
+2025-03-09 22:37:13,986 - MetricsCollector - INFO - Collected and stored metrics: {
+  "timestamp": "2025-03-09T22:37:13.970720",
+  "system": {
+    "thread_count": 4,
+    "ram_usage_percent": 68.5
+  },
+  "bitcoin_price_usd": 80999,
+  "ethereum_price_usd": 2010.02
+}
+2025-03-09 22:38:14,677 - MetricsCollector - INFO - Collected and stored metrics: {
+  "timestamp": "2025-03-09T22:38:14.661989",
+  "system": {
+    "thread_count": 4,
+    "ram_usage_percent": 68.3
+  },
+  "bitcoin_price_usd": 81104,
+  "ethereum_price_usd": 2012.72
+}
+2025-03-09 22:39:14,935 - MetricsCollector - INFO - Collected and stored metrics: {
+  "timestamp": "2025-03-09T22:39:14.919946",
+  "system": {
+    "thread_count": 2,
+    "ram_usage_percent": 68.4
+  },
+  "bitcoin_price_usd": 81104,
+  "ethereum_price_usd": 2012.72
+}
+2025-03-09 22:40:15,287 - MetricsCollector - INFO - Collected and stored metrics: {
+  "timestamp": "2025-03-09T22:40:15.253706",
+  "system": {
+    "thread_count": 2,
+    "ram_usage_percent": 67.8
+  },
+  "bitcoin_price_usd": 81086,
+  "ethereum_price_usd": 2013.41
+}
+2025-03-09 22:41:15,783 - MetricsCollector - INFO - Collected and stored metrics: {
+  "timestamp": "2025-03-09T22:41:15.722142",
+  "system": {
+    "thread_count": 2,
+    "ram_usage_percent": 68.5
+  },
+  "bitcoin_price_usd": 81201,
+  "ethereum_price_usd": 2017.5
+}

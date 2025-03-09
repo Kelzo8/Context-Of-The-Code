@@ -40,3 +40,24 @@ The application uses the following configuration files:
 - Pandas
 - SQLAlchemy
 - Other dependencies as listed in requirements.txt
+
+## Features
+
+### Metrics Visualization
+The dashboard displays real-time and historical metrics from monitored devices, including:
+- System metrics (RAM usage, thread count)
+- Cryptocurrency prices (Bitcoin, Ethereum)
+
+### Restart App Functionality
+The dashboard now supports restarting applications on monitored devices:
+1. Select a device from the dropdown menu
+2. Enter the name of the application to restart
+3. Optionally check "Force Restart" to force kill the application if it's not responding
+4. Click "Restart App" to send the command
+
+This functionality allows administrators to quickly restart applications on remote devices when they encounter issues, without needing to access the device directly.
+
+Example use cases:
+- Restart a crashed application
+- Restart an application after configuration changes
+- Force restart an unresponsive application

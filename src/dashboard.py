@@ -1,7 +1,7 @@
 import os
 import dash
 from dash import html, dcc, dash_table
-from dash.dependencies import Input, Output
+from dash.dependencies import Input, Output, State
 import plotly.graph_objs as go
 import pandas as pd
 from datetime import datetime, timedelta, UTC
@@ -45,6 +45,57 @@ app.layout = html.Div([
                 ], className='crypto-card'),
             ], style={'display': 'flex', 'justifyContent': 'space-around'})
         ])
+    ]),
+    
+    # Device Commands Section
+    html.Div([
+        html.H2('Restart App'),
+        html.Div([
+            # Device Selection
+            html.Div([
+                html.Label('Select Device:'),
+                dcc.Dropdown(
+                    id='device-selector',
+                    options=[
+                        {'label': 'Device 1', 'value': 1},
+                        {'label': 'Device 2', 'value': 2},
+                        {'label': 'Device 3', 'value': 3}
+                    ],
+                    value=1
+                ),
+            ], style={'width': '200px', 'margin': '10px'}),
+            
+            # App Name Input
+            html.Div([
+                html.Label('App Name:'),
+                dcc.Input(
+                    id='app-name-input',
+                    type='text',
+                    placeholder='Enter app name',
+                    value='metrics_collector',
+                    style={'width': '100%'}
+                ),
+            ], style={'width': '200px', 'margin': '10px'}),
+            
+            # Force Restart Checkbox
+            html.Div([
+                dcc.Checklist(
+                    id='force-restart',
+                    options=[
+                        {'label': 'Force Restart', 'value': 'force'}
+                    ],
+                    value=[]
+                ),
+            ], style={'margin': '10px'}),
+            
+            # Restart Button
+            html.Button('Restart App', id='restart-app-button', n_clicks=0, 
+                       style={'backgroundColor': '#007bff', 'color': 'white', 'border': 'none', 
+                              'padding': '10px 20px', 'borderRadius': '5px', 'margin': '10px'}),
+            
+            # Command Status
+            html.Div(id='command-status', style={'margin': '10px', 'padding': '10px', 'border': '1px solid #ddd', 'borderRadius': '5px'})
+        ], style={'display': 'flex', 'flexDirection': 'column'})
     ]),
     
     # Historical Data Section
@@ -284,6 +335,67 @@ def update_historical_data(time_range, n):
             create_empty_chart('Cryptocurrency Prices Over Time'),
             []
         )
+
+# Callback for sending commands to devices
+@app.callback(
+    Output('command-status', 'children'),
+    [Input('restart-app-button', 'n_clicks')],
+    [State('device-selector', 'value'),
+     State('app-name-input', 'value'),
+     State('force-restart', 'value')]
+)
+def send_device_command(n_clicks, device_id, app_name, force_restart):
+    # Don't trigger on initial load
+    if n_clicks == 0:
+        return html.Div("Ready to restart app", style={'color': 'gray'})
+    
+    # Validate inputs
+    if not app_name or app_name.strip() == '':
+        return html.Div("Error: App name cannot be empty", style={'color': 'red'})
+    
+    # Create a new client with the selected device ID
+    command_client = MetricsClient(
+        base_url=API_URL,
+        device_id=device_id
+    )
+    
+    try:
+        # Use the specific restart_app method
+        force = 'force' in force_restart
+        print(f"Sending restart command for app '{app_name}' to device {device_id} (force={force})")
+        
+        result = command_client.restart_app(app_name, force)
+        
+        if 'error' in result:
+            error_msg = result['error']
+            print(f"Error from API: {error_msg}")
+            return html.Div([
+                html.P("Failed to restart app", style={'color': 'red', 'fontWeight': 'bold'}),
+                html.P(f"Error: {error_msg}", style={'color': 'red'})
+            ])
+        else:
+            return html.Div([
+                html.P(f"Restart command sent successfully!", style={'color': 'green', 'fontWeight': 'bold'}),
+                html.P(f"App: {app_name}", style={'marginBottom': '5px'}),
+                html.P(f"Force restart: {'Yes' if force else 'No'}", style={'marginBottom': '5px'}),
+                html.P(f"Status: {result.get('status', 'unknown')}", style={'marginBottom': '5px'}),
+                html.P(f"Command ID: {result.get('command_id', 'unknown')}", style={'marginBottom': '5px'}),
+                html.P(f"Timestamp: {result.get('timestamp', 'unknown')}", style={'marginBottom': '5px'})
+            ])
+    except Exception as e:
+        import traceback
+        error_details = traceback.format_exc()
+        print(f"Error sending restart command: {str(e)}")
+        print(error_details)
+        
+        return html.Div([
+            html.P("Failed to restart app", style={'color': 'red', 'fontWeight': 'bold'}),
+            html.P(f"Error: {str(e)}", style={'color': 'red'}),
+            html.Details([
+                html.Summary("Technical Details"),
+                html.Pre(error_details, style={'whiteSpace': 'pre-wrap', 'fontSize': '12px'})
+            ])
+        ])
 
 # Add CSS
 app.index_string = '''

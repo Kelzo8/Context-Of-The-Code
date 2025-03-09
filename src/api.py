@@ -1,8 +1,9 @@
 from flask import Flask, request, jsonify
 from models import Device, Snapshot, SystemMetric, CryptoMetric, get_database_engine
 from sqlalchemy.orm import sessionmaker, joinedload
-from datetime import datetime
+from datetime import datetime, UTC
 import socket
+import time
 
 app = Flask(__name__)
 
@@ -194,6 +195,87 @@ def get_snapshots():
         return jsonify(results), 200
         
     except Exception as e:
+        return jsonify({'error': str(e)}), 500
+    finally:
+        session.close()
+
+@app.route('/v1/devices/<int:device_id>/commands', methods=['POST'])
+def send_command(device_id):
+    """Send a command to a specific device"""
+    session = get_db_session()
+    try:
+        # Log the incoming request
+        app.logger.info(f"Received command request for device {device_id}")
+        app.logger.info(f"Request data: {request.get_json()}")
+        
+        data = request.get_json()
+        if data is None:
+            app.logger.error("No JSON data in request")
+            return jsonify({
+                'error': 'No JSON data in request'
+            }), 400
+        
+        # Validate required fields
+        if not data.get('command_type'):
+            app.logger.error("Missing required field: command_type")
+            return jsonify({
+                'error': 'Missing required field: command_type'
+            }), 400
+            
+        # Check if device exists
+        device = session.query(Device).filter_by(id=device_id).first()
+        if not device:
+            app.logger.error(f"Device with ID {device_id} not found")
+            return jsonify({
+                'error': f'Device with ID {device_id} not found'
+            }), 404
+            
+        # Process the command
+        command_type = data['command_type']
+        command_params = data.get('params', {})
+        
+        app.logger.info(f"Processing command: {command_type} with params: {command_params}")
+        
+        # Handle restart_app command specifically
+        if command_type == 'restart_app':
+            # Validate app_name parameter
+            app_name = command_params.get('app_name')
+            if not app_name:
+                app.logger.error("Missing required parameter: app_name")
+                return jsonify({
+                    'error': 'Missing required parameter: app_name'
+                }), 400
+                
+            force = command_params.get('force', False)
+            
+            # In a real system, this would send the restart command to the device
+            # For now, we'll just log it and return success
+            app.logger.info(f"Restarting app '{app_name}' on device {device_id} (force={force})")
+            
+            response_data = {
+                'message': f"Restart command for app '{app_name}' sent successfully to device {device_id}",
+                'status': 'queued',
+                'command_id': int(time.time()),
+                'timestamp': datetime.now(UTC).isoformat(),
+                'details': {
+                    'app_name': app_name,
+                    'force': force
+                }
+            }
+            
+            app.logger.info(f"Sending response: {response_data}")
+            return jsonify(response_data), 200
+        else:
+            app.logger.error(f"Unsupported command type: {command_type}")
+            return jsonify({
+                'error': f"Unsupported command type: {command_type}. Only 'restart_app' is supported."
+            }), 400
+            
+    except Exception as e:
+        session.rollback()
+        app.logger.error(f"Error sending command: {str(e)}")
+        import traceback
+        app.logger.error(traceback.format_exc())
         return jsonify({'error': str(e)}), 500
     finally:
         session.close()

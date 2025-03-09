@@ -125,17 +125,17 @@ class MetricsClient:
                    end_time: Optional[datetime] = None,
                    limit: int = 100) -> List[MetricsSnapshot]:
         """
-        Retrieve metrics from the API.
+        Get metrics from the API.
         
         Args:
-            start_time: Optional start time filter
-            end_time: Optional end time filter
-            limit: Maximum number of results to return
+            start_time: Start time for filtering metrics
+            end_time: End time for filtering metrics
+            limit: Maximum number of metrics to return
             
         Returns:
             List of MetricsSnapshot objects
         """
-        params = {'device_id': self.device_id, 'limit': limit}
+        params = {'limit': limit}
         
         if start_time:
             params['start_time'] = start_time.isoformat()
@@ -146,8 +146,64 @@ class MetricsClient:
             response = requests.get(f"{self.base_url}/v1/metrics", params=params)
             response.raise_for_status()
             
-            return [MetricsSnapshot.from_dict(item) for item in response.json()]
+            data = response.json()
+            return [MetricsSnapshot.from_dict(item) for item in data]
+        except Exception as e:
+            self.logger.error(f"Error getting metrics: {str(e)}")
+            return []
             
-        except requests.RequestException as e:
-            self.logger.error(f"Error retrieving metrics: {str(e)}")
-            return [] 
+    def send_command(self, command_type: str, params: Optional[dict] = None) -> dict:
+        """
+        Send a command to the device.
+        
+        Args:
+            command_type: Type of command to send (e.g., 'restart_app', 'reboot')
+            params: Additional parameters for the command
+            
+        Returns:
+            Response from the API as a dictionary
+        """
+        if params is None:
+            params = {}
+            
+        payload = {
+            'command_type': command_type,
+            'params': params
+        }
+        
+        try:
+            # Add debug logging
+            self.logger.info(f"Sending command to {self.base_url}/v1/devices/{self.device_id}/commands")
+            self.logger.info(f"Payload: {payload}")
+            
+            response = requests.post(
+                f"{self.base_url}/v1/devices/{self.device_id}/commands", 
+                json=payload,
+                headers={'Content-Type': 'application/json'}
+            )
+            
+            # Add debug logging for response
+            self.logger.info(f"Response status code: {response.status_code}")
+            self.logger.info(f"Response content: {response.text}")
+            
+            response.raise_for_status()
+            return response.json()
+        except requests.exceptions.RequestException as e:
+            self.logger.error(f"Error sending command: {str(e)}")
+            return {'error': str(e), 'status': 'failed'}
+            
+    def restart_app(self, app_name: str, force: bool = False) -> dict:
+        """
+        Restart a specific application on the device.
+        
+        Args:
+            app_name: Name of the application to restart
+            force: Whether to force restart the application
+            
+        Returns:
+            Response from the API as a dictionary
+        """
+        return self.send_command('restart_app', {
+            'app_name': app_name,
+            'force': force
+        }) 
