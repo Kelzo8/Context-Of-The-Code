@@ -3,7 +3,7 @@ services:
   - type: web
     name: metrics-dashboard
     env: python
-    buildCommand: pip install -r requirements.txt
+    buildCommand: pip install -r requirements.txt && pip install ./src/metrics_sdk
     startCommand: gunicorn src.dashboard:server
     envVars:
       - key: PYTHON_VERSION
