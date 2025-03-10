@@ -17,6 +17,7 @@ client = MetricsClient(
 
 # Initialize the Dash app
 app = dash.Dash(__name__, title='Metrics Dashboard')
+server = app.server  # This is important for production deployment
 
 # Layout
 app.layout = html.Div([
@@ -439,4 +440,4 @@ app.index_string = '''
 '''
 
 if __name__ == '__main__':
-    app.run_server(debug=True, port=8050) 
+    app.run_server(debug=False, host='0.0.0.0', port=8050) 
