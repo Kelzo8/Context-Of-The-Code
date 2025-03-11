@@ -13055,3 +13055,48 @@
   "bitcoin_price_usd": 83314,
   "ethereum_price_usd": 1953.88
 }
+2025-03-11 19:46:44,747 - MetricsCollector - INFO - Collected and stored metrics: {
+  "timestamp": "2025-03-11T19:46:44.730557",
+  "system": {
+    "thread_count": 2,
+    "ram_usage_percent": 72.2
+  },
+  "bitcoin_price_usd": 83316,
+  "ethereum_price_usd": 1954.11
+}
+2025-03-11 19:47:44,912 - MetricsCollector - INFO - Collected and stored metrics: {
+  "timestamp": "2025-03-11T19:47:44.896536",
+  "system": {
+    "thread_count": 2,
+    "ram_usage_percent": 72.2
+  },
+  "bitcoin_price_usd": 83316,
+  "ethereum_price_usd": 1954.11
+}
+2025-03-11 19:48:45,130 - MetricsCollector - INFO - Collected and stored metrics: {
+  "timestamp": "2025-03-11T19:48:45.113304",
+  "system": {
+    "thread_count": 2,
+    "ram_usage_percent": 74.1
+  },
+  "bitcoin_price_usd": 83248,
+  "ethereum_price_usd": 1952.57
+}
+2025-03-11 19:49:45,689 - MetricsCollector - INFO - Collected and stored metrics: {
+  "timestamp": "2025-03-11T19:49:45.670418",
+  "system": {
+    "thread_count": 2,
+    "ram_usage_percent": 71.2
+  },
+  "bitcoin_price_usd": 83220,
+  "ethereum_price_usd": 1951.85
+}
+2025-03-11 19:50:46,474 - MetricsCollector - INFO - Collected and stored metrics: {
+  "timestamp": "2025-03-11T19:50:46.452411",
+  "system": {
+    "thread_count": 2,
+    "ram_usage_percent": 71.4
+  },
+  "bitcoin_price_usd": 83344,
+  "ethereum_price_usd": 1955.01
+}

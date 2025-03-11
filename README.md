@@ -1,63 +1,92 @@
-# Streamlit Dashboard Application
+# System & Crypto Metrics Dashboard
 
-This is a Streamlit-based dashboard application that visualizes data using Plotly.
-
-## Local Development
-
-1. Install the required dependencies:
-```bash
-pip install -r requirements.txt
-```
-
-2. Run the application:
-```bash
-streamlit run src/streamlit_dashboard.py
-```
-
-## Deployment on Streamlit Cloud
-
-1. Push your code to a GitHub repository
-2. Visit [Streamlit Cloud](https://streamlit.io/cloud)
-3. Sign in with your GitHub account
-4. Click "New app"
-5. Select your repository, branch, and the main file path (src/streamlit_dashboard.py)
-6. Click "Deploy"
-
-The application will be automatically deployed and accessible via a public URL.
-
-## Configuration
-
-The application uses the following configuration files:
-- `.streamlit/config.toml`: Contains theme and server settings
-- `requirements.txt`: Lists Python package dependencies
-- `packages.txt`: Lists system dependencies
-
-## Dependencies
-
-- Python 3.7+
-- Streamlit
-- Plotly
-- Pandas
-- SQLAlchemy
-- Other dependencies as listed in requirements.txt
+A real-time dashboard built with Streamlit that monitors system metrics and cryptocurrency prices. The dashboard pulls data from a custom API and updates automatically.
 
 ## Features
 
-### Metrics Visualization
-The dashboard displays real-time and historical metrics from monitored devices, including:
+### Live Metrics
+- **System Monitoring**
+  - RAM Usage % with real-time gauge visualization
+  - System Thread Count with dynamic gauge display
+  - Auto-refreshing metrics (configurable refresh rate)
+
+- **Cryptocurrency Tracking**
+  - Live Bitcoin (BTC) price in USD
+  - Live Ethereum (ETH) price in USD
+  - Real-time price updates
+
+### Historical Data
+- Customizable time range views:
+  - Last 24 Hours
+  - Last Week
+- Interactive charts showing:
+  - System metrics over time
+  - Cryptocurrency price trends
+- Detailed data table with historical records
+
+### Device Management
+- Multi-device support
+- Remote app restart functionality
+- Force restart option for unresponsive applications
+
+### Dashboard Settings
+- Configurable refresh rate (1-60 seconds)
+- API connection status monitoring
+- Development mode with API URL configuration
+
+## Setup
+
+1. Install required packages:
+```bash
+pip install streamlit plotly pandas psutil python-dotenv wmi
+```
+
+2. Set up environment variables:
+Create a `.env` file with:
+```
+API_URL=your_api_url_here
+STREAMLIT_ENV=development  # Optional for development mode
+```
+
+3. Run the dashboard:
+```bash
+streamlit run streamlit_app.py
+```
+
+## Deployment
+
+The dashboard is deployed on Streamlit Cloud and can be accessed at:
+https://context-of-the-code.streamlit.app/
+
+## API Integration
+
+The dashboard integrates with a custom API that provides:
 - System metrics (RAM usage, thread count)
-- Cryptocurrency prices (Bitcoin, Ethereum)
+- Cryptocurrency prices
+- Historical data
 
-### Restart App Functionality
-The dashboard now supports restarting applications on monitored devices:
-1. Select a device from the dropdown menu
-2. Enter the name of the application to restart
-3. Optionally check "Force Restart" to force kill the application if it's not responding
-4. Click "Restart App" to send the command
+## Features in Detail
 
-This functionality allows administrators to quickly restart applications on remote devices when they encounter issues, without needing to access the device directly.
+### Auto-Refresh
+- Dashboard automatically updates based on the selected refresh rate
+- No manual refresh required
+- Configurable through the sidebar slider
 
-Example use cases:
-- Restart a crashed application
-- Restart an application after configuration changes
-- Force restart an unresponsive application
+### System Metrics
+- RAM Usage: Shows percentage of used RAM
+- Thread Count: Displays current system threads
+- Both metrics update in real-time
+
+### Cryptocurrency Data
+- Real-time price updates for BTC and ETH
+- Historical price tracking
+- Interactive price charts
+
+### Data Visualization
+- Dynamic gauges for system metrics
+- Interactive time series charts
+- Sortable historical data table
+
+## Contributing
+
+Feel free to submit issues and enhancement requests!
