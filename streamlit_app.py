@@ -328,5 +328,7 @@ def main():
 
 if __name__ == "__main__":
     main()
-    # Auto-refresh
-    time.sleep(refresh_rate) 
+    # Add auto-refresh
+    st.empty()
+    time.sleep(refresh_rate)
+    st.rerun() 
