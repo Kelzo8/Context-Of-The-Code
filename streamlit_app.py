@@ -6,6 +6,7 @@ import time
 import os
 import psutil
 import sys
+import platform
 
 # Add the current directory to Python path
 sys.path.append(os.path.dirname(os.path.abspath(__file__)))
@@ -77,16 +78,49 @@ def create_gauge(value, title, min_val=0, max_val=100):
     return fig
 
 def get_system_metrics():
-    """Get system metrics using psutil"""
+    """Get system metrics using psutil with fallback options for RAM measurement"""
     try:
         ram = psutil.virtual_memory()
         current_process = psutil.Process()
         
+        try:
+            # First attempt: Try using WMI for Windows
+            if platform.system() == 'Windows':
+                import wmi
+                computer = wmi.WMI()
+                os_info = computer.Win32_OperatingSystem()[0]
+                total_physical_ram = float(os_info.TotalVisibleMemorySize) * 1024  # Convert KB to bytes
+                available_physical_ram = float(os_info.FreePhysicalMemory) * 1024  # Convert KB to bytes
+            else:
+                raise ImportError("Not on Windows")
+                
+        except (ImportError, Exception) as e:
+            # Fallback: Use psutil values but adjust for more accurate physical memory
+            total_physical_ram = ram.total
+            available_physical_ram = ram.available
+            
+            # On Windows, try to account for virtual memory
+            if platform.system() == 'Windows':
+                # Typically, virtual memory includes page file which inflates the total
+                # Let's use a more conservative estimate
+                total_physical_ram = int(total_physical_ram * 0.6)  # Approximate adjustment
+                available_physical_ram = int(available_physical_ram * 0.6)  # Approximate adjustment
+        
+        # Convert to GB with proper precision
+        total_gb = total_physical_ram / (1024 * 1024 * 1024)  # Convert bytes to GB
+        available_gb = available_physical_ram / (1024 * 1024 * 1024)  # Convert bytes to GB
+        
+        # Add debug info to help troubleshoot
+        st.sidebar.markdown("### RAM Debug Info")
+        st.sidebar.write(f"System: {platform.system()}")
+        st.sidebar.write(f"Total RAM (GB): {total_gb:.2f}")
+        st.sidebar.write(f"Available RAM (GB): {available_gb:.2f}")
+        
         return {
             'ram_usage_percent': ram.percent,
-            'total_ram': ram.total,
-            'used_ram': ram.used,
-            'available_ram': ram.available,
+            'total_ram': total_gb,  # Now in GB
+            'used_ram': total_gb - available_gb,  # Now in GB
+            'available_ram': available_gb,  # Now in GB
             'thread_count': current_process.num_threads()
         }
     except Exception as e:
@@ -146,11 +180,11 @@ def main():
             # Display additional RAM info
             st.metric(
                 "Total RAM",
-                f"{metrics['total_ram'] / (1024**3):.1f} GB"
+                f"{metrics['total_ram']:.1f} GB"
             )
             st.metric(
                 "Available RAM",
-                f"{metrics['available_ram'] / (1024**3):.1f} GB"
+                f"{metrics['available_ram']:.1f} GB"
             )
         
         # Crypto Prices Row
