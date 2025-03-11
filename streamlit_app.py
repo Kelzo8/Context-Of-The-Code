@@ -81,7 +81,18 @@ def get_system_metrics():
     """Get system metrics using psutil with system-specific adjustments"""
     try:
         ram = psutil.virtual_memory()
-        current_process = psutil.Process()
+        
+        # Get total system threads
+        total_threads = 0
+        try:
+            for proc in psutil.process_iter(['num_threads']):
+                try:
+                    total_threads += proc.info['num_threads']
+                except (psutil.NoSuchProcess, psutil.AccessDenied, psutil.ZombieProcess):
+                    continue
+        except Exception as e:
+            st.error(f"Error counting threads: {str(e)}")
+            total_threads = 0
         
         # System-specific adjustments without displaying system type
         if platform.system() == 'Windows':
@@ -110,7 +121,7 @@ def get_system_metrics():
             'total_ram': total_gb,
             'used_ram': total_gb - available_gb,
             'available_ram': available_gb,
-            'thread_count': current_process.num_threads()
+            'thread_count': total_threads
         }
     except Exception as e:
         st.error(f"Error getting system metrics: {str(e)}")
@@ -160,8 +171,9 @@ def main():
             )
             
         with m2:
+            # Increased max_val for system threads to 3500
             st.plotly_chart(
-                create_gauge(metrics['thread_count'], 'Python Threads', max_val=50),
+                create_gauge(metrics['thread_count'], 'System Threads', max_val=3500),
                 use_container_width=True
             )
             
