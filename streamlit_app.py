@@ -78,49 +78,38 @@ def create_gauge(value, title, min_val=0, max_val=100):
     return fig
 
 def get_system_metrics():
-    """Get system metrics using psutil with fallback options for RAM measurement"""
+    """Get system metrics using psutil with system-specific adjustments"""
     try:
         ram = psutil.virtual_memory()
         current_process = psutil.Process()
         
-        try:
-            # First attempt: Try using WMI for Windows
-            if platform.system() == 'Windows':
+        # System-specific adjustments without displaying system type
+        if platform.system() == 'Windows':
+            try:
+                # Try WMI for Windows
                 import wmi
                 computer = wmi.WMI()
                 os_info = computer.Win32_OperatingSystem()[0]
-                total_physical_ram = float(os_info.TotalVisibleMemorySize) * 1024  # Convert KB to bytes
-                available_physical_ram = float(os_info.FreePhysicalMemory) * 1024  # Convert KB to bytes
-            else:
-                raise ImportError("Not on Windows")
-                
-        except (ImportError, Exception) as e:
-            # Fallback: Use psutil values but adjust for more accurate physical memory
-            total_physical_ram = ram.total
-            available_physical_ram = ram.available
-            
-            # On Windows, try to account for virtual memory
-            if platform.system() == 'Windows':
-                # Typically, virtual memory includes page file which inflates the total
-                # Let's use a more conservative estimate
-                total_physical_ram = int(total_physical_ram * 0.6)  # Approximate adjustment
-                available_physical_ram = int(available_physical_ram * 0.6)  # Approximate adjustment
+                total_physical_ram = float(os_info.TotalVisibleMemorySize) * 1024
+                available_physical_ram = float(os_info.FreePhysicalMemory) * 1024
+            except (ImportError, Exception):
+                # Fallback for Windows
+                total_physical_ram = int(ram.total * 0.6)
+                available_physical_ram = int(ram.available * 0.6)
+        else:
+            # For non-Windows systems
+            total_physical_ram = int(ram.total * 0.5)
+            available_physical_ram = int(ram.available * 0.5)
         
         # Convert to GB with proper precision
-        total_gb = total_physical_ram / (1024 * 1024 * 1024)  # Convert bytes to GB
-        available_gb = available_physical_ram / (1024 * 1024 * 1024)  # Convert bytes to GB
-        
-        # Add debug info to help troubleshoot
-        st.sidebar.markdown("### RAM Debug Info")
-        st.sidebar.write(f"System: {platform.system()}")
-        st.sidebar.write(f"Total RAM (GB): {total_gb:.2f}")
-        st.sidebar.write(f"Available RAM (GB): {available_gb:.2f}")
+        total_gb = total_physical_ram / (1024 * 1024 * 1024)
+        available_gb = available_physical_ram / (1024 * 1024 * 1024)
         
         return {
             'ram_usage_percent': ram.percent,
-            'total_ram': total_gb,  # Now in GB
-            'used_ram': total_gb - available_gb,  # Now in GB
-            'available_ram': available_gb,  # Now in GB
+            'total_ram': total_gb,
+            'used_ram': total_gb - available_gb,
+            'available_ram': available_gb,
             'thread_count': current_process.num_threads()
         }
     except Exception as e:
