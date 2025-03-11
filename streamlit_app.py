@@ -78,58 +78,42 @@ def create_gauge(value, title, min_val=0, max_val=100):
     return fig
 
 def get_system_metrics():
-    """Get system metrics using psutil with system-specific adjustments"""
+    """Get system metrics from the API instead of measuring directly"""
     try:
-        ram = psutil.virtual_memory()
+        # Get latest metrics from API
+        latest_metrics = client.get_metrics(limit=1)
         
-        # Get total system threads
-        total_threads = 0
-        try:
-            for proc in psutil.process_iter(['num_threads']):
-                try:
-                    total_threads += proc.info['num_threads']
-                except (psutil.NoSuchProcess, psutil.AccessDenied, psutil.ZombieProcess):
-                    continue
-        except Exception as e:
-            st.error(f"Error counting threads: {str(e)}")
-            total_threads = 0
-        
-        # System-specific adjustments without displaying system type
-        if platform.system() == 'Windows':
-            try:
-                # Try WMI for Windows
-                import wmi
-                computer = wmi.WMI()
-                os_info = computer.Win32_OperatingSystem()[0]
-                total_physical_ram = float(os_info.TotalVisibleMemorySize) * 1024
-                available_physical_ram = float(os_info.FreePhysicalMemory) * 1024
-            except (ImportError, Exception):
-                # Fallback for Windows
-                total_physical_ram = int(ram.total * 0.6)
-                available_physical_ram = int(ram.available * 0.6)
+        if latest_metrics and latest_metrics[0]:
+            # Access the system metrics
+            if hasattr(latest_metrics[0], 'system_metrics'):
+                metrics = latest_metrics[0].system_metrics
+                return {
+                    'ram_usage_percent': metrics.ram_usage_percent,
+                    'thread_count': metrics.thread_count
+                }
+            elif hasattr(latest_metrics[0], 'system'):  # Try alternate structure
+                metrics = latest_metrics[0].system
+                return {
+                    'ram_usage_percent': metrics.get('ram_usage_percent', 0),
+                    'thread_count': metrics.get('thread_count', 0)
+                }
+            else:
+                st.error("Unexpected metrics structure")
+                return {
+                    'ram_usage_percent': 0,
+                    'thread_count': 0
+                }
         else:
-            # For non-Windows systems
-            total_physical_ram = int(ram.total * 0.5)
-            available_physical_ram = int(ram.available * 0.5)
-        
-        # Convert to GB with proper precision
-        total_gb = total_physical_ram / (1024 * 1024 * 1024)
-        available_gb = available_physical_ram / (1024 * 1024 * 1024)
-        
-        return {
-            'ram_usage_percent': ram.percent,
-            'total_ram': total_gb,
-            'used_ram': total_gb - available_gb,
-            'available_ram': available_gb,
-            'thread_count': total_threads
-        }
+            st.error("No metrics available from API")
+            return {
+                'ram_usage_percent': 0,
+                'thread_count': 0
+            }
+            
     except Exception as e:
-        st.error(f"Error getting system metrics: {str(e)}")
+        st.error(f"Error getting system metrics from API: {str(e)}")
         return {
             'ram_usage_percent': 0,
-            'total_ram': 0,
-            'used_ram': 0,
-            'available_ram': 0,
             'thread_count': 0
         }
 
@@ -144,25 +128,28 @@ def main():
         # Live Metrics Section
         st.header("Live Metrics")
         
-        # Get current system metrics
-        metrics = get_system_metrics()
-        
-        # Get latest crypto metrics
+        # Get metrics from API
         try:
             latest_metrics = client.get_metrics(limit=1)
-            if latest_metrics and latest_metrics[0].crypto_metrics:
-                crypto_data = latest_metrics[0].crypto_metrics
-                btc_price = crypto_data.bitcoin_price_usd
-                eth_price = crypto_data.ethereum_price_usd
+            if latest_metrics and latest_metrics[0]:
+                metrics = get_system_metrics()  # This now gets data from API
+                if latest_metrics[0].crypto_metrics:
+                    crypto_data = latest_metrics[0].crypto_metrics
+                    btc_price = crypto_data.bitcoin_price_usd
+                    eth_price = crypto_data.ethereum_price_usd
+                else:
+                    btc_price = eth_price = None
             else:
+                metrics = get_system_metrics()  # Will return zeros if no data
                 btc_price = eth_price = None
         except Exception as e:
-            st.error(f"Error fetching crypto prices: {str(e)}")
+            st.error(f"Error fetching metrics: {str(e)}")
+            metrics = get_system_metrics()  # Will return zeros if error
             btc_price = eth_price = None
         
         # System Metrics Row
         st.subheader("System Metrics")
-        m1, m2, m3 = st.columns(3)
+        m1, m2 = st.columns(2)
         
         with m1:
             st.plotly_chart(
@@ -171,21 +158,9 @@ def main():
             )
             
         with m2:
-            # Increased max_val for system threads to 3500
             st.plotly_chart(
-                create_gauge(metrics['thread_count'], 'System Threads', max_val=3500),
+                create_gauge(metrics['thread_count'], 'System Threads', max_val=10),
                 use_container_width=True
-            )
-            
-        with m3:
-            # Display additional RAM info
-            st.metric(
-                "Total RAM",
-                f"{metrics['total_ram']:.1f} GB"
-            )
-            st.metric(
-                "Available RAM",
-                f"{metrics['available_ram']:.1f} GB"
             )
         
         # Crypto Prices Row
