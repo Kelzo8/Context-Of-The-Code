@@ -64,7 +64,7 @@ The dashboard integrates with a custom API that provides:
 - System metrics (RAM usage, thread count)
 - Cryptocurrency prices
 - Historical data
-- Used Grok for hosting api
+- Used ngrok for hosting api
 
 ## Features in Detail
 
